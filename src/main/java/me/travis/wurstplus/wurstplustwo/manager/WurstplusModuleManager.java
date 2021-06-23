@@ -91,6 +91,7 @@ public class WurstplusModuleManager {
 		add_hack(new Reach());
 		add_hack(new LiquidInteract());
 		add_hack(new AutoSalDupe());
+		add_hack(new Blink());
 
 		// Movement.
 		add_hack(new WurstplusStrafe());
