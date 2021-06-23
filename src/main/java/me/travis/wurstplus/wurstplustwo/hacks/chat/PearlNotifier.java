@@ -83,7 +83,7 @@ public class PearlNotifier extends WurstplusHack {
                         faceing = "west";
                     }
 
-                    WurstplusMessageUtil.send_client_message(ChatFormatting.GREEN + ChatFormatting.BOLD + "Pearl Notifier" + ChatFormatting.DARK_AQUA + "> " + ChatFormatting.RED + closestPlayer.getName() + ChatFormatting.WHITE + " thrown a pearl heading " + faceing);
+                    WurstplusMessageUtil.send_client_message(ChatFormatting.GREEN + "" + ChatFormatting.BOLD + "Pearl Notifier" + ChatFormatting.DARK_AQUA + "> " + ChatFormatting.RED + closestPlayer.getName() + ChatFormatting.WHITE + " thrown a pearl heading " + faceing);
                     this.flag = false;
                 }
 
