@@ -22,8 +22,8 @@ public class VenecoInsulter extends WurstplusHack {
     public VenecoInsulter() {
         super(WurstplusCategory.WURSTPLUS_CHAT);
 
-        this.name = "TFB Spammer";
-        this.tag = "TFBSpammer";
+        this.name = "Veneco Insulter";
+        this.tag = "VenecoInsulter";
         this.description = "i love black squares (circles on the other hand...)";
     }
 
