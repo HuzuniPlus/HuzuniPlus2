@@ -5,7 +5,7 @@ import me.travis.wurstplus.wurstplustwo.event.events.WurstplusEventRender;
 import me.travis.wurstplus.wurstplustwo.hacks.*;
 import me.travis.wurstplus.wurstplustwo.hacks.chat.*;
 import me.travis.wurstplus.wurstplustwo.hacks.combat.*;
-import me.travis.wurstplus.wurstplustwo.hacks.dev.WurstplusFakePlayer;
+import me.travis.wurstplus.wurstplustwo.hacks.dev.*;
 import me.travis.wurstplus.wurstplustwo.hacks.exploit.*;
 import me.travis.wurstplus.wurstplustwo.hacks.misc.*;
 import me.travis.wurstplus.wurstplustwo.hacks.movement.*;
@@ -71,6 +71,7 @@ public class WurstplusModuleManager {
 		add_hack(new WurstplusAutoMine());
 		add_hack(new ColisseumWeaponZoom());
 		add_hack(new Reach());
+		add_hack(new MapNoDebuff());
 
 		// Exploit.
 		add_hack(new WurstplusXCarry());
