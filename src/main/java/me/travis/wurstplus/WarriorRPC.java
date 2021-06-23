@@ -19,8 +19,8 @@ public class WarriorRPC
         handlers.disconnected = ((var1, var2) -> System.out.println("Discord RPC disconnected, var1: " + String.valueOf(var1) + ", var2: " + var2));
         WarriorRPC.rpc.Discord_Initialize("728052357228658742", handlers, true, "");
         WarriorRPC.presence.startTimestamp = System.currentTimeMillis() / 1000L;
-        WarriorRPC.presence.details = "Pou owns u discord.gg/pou";
-        WarriorRPC.presence.state = "AFK on Main Menu";
+        WarriorRPC.presence.details = "Pou owns u | discord.gg/pou";
+        WarriorRPC.presence.state = "On Main Menu";
         WarriorRPC.presence.largeImageKey = "logo";
         WarriorRPC.presence.largeImageText = Wurstplus.HUZUNI;
         WarriorRPC.rpc.Discord_UpdatePresence(WarriorRPC.presence);
@@ -31,15 +31,15 @@ public class WarriorRPC
                 	WarriorRPC.details = "Pou owns u discord.gg/pou";
                 	WarriorRPC.state = "";
                     if (WarriorRPC.mc.isIntegratedServerRunning()) {
-                    	WarriorRPC.state = "Playing on Singleplayer";
+                    	WarriorRPC.state ="On Singleplayer";
                     }
                     else if (WarriorRPC.mc.getCurrentServerData() != null) {
                         if (!WarriorRPC.mc.getCurrentServerData().serverIP.equals("")) {
-                        	WarriorRPC.state = "Playing on " + WarriorRPC.mc.getCurrentServerData().serverIP;
+                        	WarriorRPC.state = "On " + WarriorRPC.mc.getCurrentServerData().serverIP;
                         }
                     }
                     else {
-                    	WarriorRPC.state = "AFK on Main Menu";
+                    	WarriorRPC.state = "On Main Menu";
                     }
                     if (!WarriorRPC.details.equals(WarriorRPC.presence.details) || !WarriorRPC.state.equals(WarriorRPC.presence.state)) {
                     	WarriorRPC.presence.startTimestamp = System.currentTimeMillis() / 1000L;
