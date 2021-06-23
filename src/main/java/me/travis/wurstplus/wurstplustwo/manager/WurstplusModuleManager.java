@@ -84,6 +84,7 @@ public class WurstplusModuleManager {
 		add_hack(new AutoGlitchBlock());
 		add_hack(new FeetExperience());
 		add_hack(new ManualQuiver());
+		add_hack(new Timer());
 
 		// Movement.
 		add_hack(new WurstplusStrafe());
