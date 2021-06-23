@@ -30,7 +30,7 @@ public class PineapleFreecam extends WurstplusHack {
     public PineapleFreecam (){
         super(WurstplusCategory.WURSTPLUS_MISC);
         this.name = "Freecam";
-        this.tag = "Frikam";
+        this.tag = "Freecam";
         this.description = "ecsplore a lot";
     }
 

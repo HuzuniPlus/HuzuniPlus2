@@ -62,7 +62,6 @@ public class WurstplusModuleManager {
 		add_hack(new WurstplusAutoTotem());
 		add_hack(new WurstplusAutoMine());
 		add_hack(new ColisseumWeaponZoom());
-		add_hack(new Reach());
 		add_hack(new MapNoDebuff());
 
 		// Exploit.
