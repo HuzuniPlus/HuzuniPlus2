@@ -24,7 +24,7 @@ public class Wurstplus {
 
 	public static final String WURSTPLUS_NAME = "Huzuni+ 2";
 	public static final String WURSTPLUS_VERSION = "0.2";
-	public static final String HUZUNI = WURSTPLUS_NAME + " " + WURSTPLUS_VERSION
+	public static final String HUZUNI = WURSTPLUS_NAME + " " + WURSTPLUS_VERSION;
 	public static final String WURSTPLUS_SIGN = " ";
 
 	public static final int WURSTPLUS_KEY_GUI = Keyboard.KEY_RSHIFT;
