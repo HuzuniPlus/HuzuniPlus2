@@ -136,6 +136,7 @@ public class WurstplusModuleManager {
 		add_hack(new AutoFarm());
 		add_hack(new RichPresence());
 		add_hack(new MapEffectSpoofer());
+		add_hack(new Scaffold());
 
 		// Dev
 		add_hack(new WurstplusFakePlayer());

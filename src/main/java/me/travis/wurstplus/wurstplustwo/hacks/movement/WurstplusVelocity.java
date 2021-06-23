@@ -1,4 +1,4 @@
-package me.travis.wurstplus.wurstplustwo.hacks.combat;
+package me.travis.wurstplus.wurstplustwo.hacks.movement;
 
 
 import me.travis.wurstplus.wurstplustwo.event.WurstplusEventCancellable;
@@ -14,7 +14,7 @@ import net.minecraft.network.play.server.SPacketExplosion;
 
 public class WurstplusVelocity extends WurstplusHack {
 	public WurstplusVelocity() {
-		super(WurstplusCategory.WURSTPLUS_COMBAT);
+		super(WurstplusCategory.WURSTPLUS_MOVEMENT);
 
 		this.name        = "Velocity";
 		this.tag         = "Velocity";
