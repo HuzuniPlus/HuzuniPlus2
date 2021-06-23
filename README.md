@@ -6,4 +6,4 @@ mañana hago un readme bieeeen piola
 - los creditos buscalos en https://github.com/WarriorCrystal/CheatBreakerPlus-src
 - packers marica
 
-uzsuni plos en la parte de arriva
+uzsuni plos tuo en la parte de arriva
