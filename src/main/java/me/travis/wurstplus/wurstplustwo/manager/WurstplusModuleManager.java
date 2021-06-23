@@ -131,6 +131,7 @@ public class WurstplusModuleManager {
 		add_hack(new WurstplusSpeedmine());
 		add_hack(new CopyCoords());
 		add_hack(new AutoFarm());
+		add_hack(new RichPresence());
 
 		// Dev
 		add_hack(new WurstplusFakePlayer());
