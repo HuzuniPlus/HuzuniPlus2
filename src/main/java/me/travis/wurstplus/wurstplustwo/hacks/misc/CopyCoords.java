@@ -30,7 +30,7 @@ public class CopyCoords extends WurstplusHack {
     //Module Settings
 
     public void enable() {
-        this.coords = mc.player.posX + " " + mc.player.posY + " " + mc.player.posZ;
+        this.coords = "X: " + mc.player.posX + " Y: " + mc.player.posY + " Z: " + mc.player.posZ;
         String myString = this.coords;
         StringSelection stringSelection = new StringSelection(myString);
         Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
