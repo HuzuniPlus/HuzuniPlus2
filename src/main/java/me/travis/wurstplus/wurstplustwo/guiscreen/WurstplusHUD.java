@@ -15,7 +15,7 @@ public class WurstplusHUD extends GuiScreen {
 	public boolean back;
 
 	public WurstplusHUD() {
-		this.frame  = new WurstplusFrame("Huzuni+ Hud", "WurstplusHUD", 40, 40);
+		this.frame  = new WurstplusFrame(Wurstplus.HUZUNI + " Hud", "WurstplusHUD", 40, 40);
 		this.back   = false;
 		this.on_gui = false;
 	}

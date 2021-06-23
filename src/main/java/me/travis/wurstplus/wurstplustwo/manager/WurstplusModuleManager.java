@@ -59,7 +59,6 @@ public class WurstplusModuleManager {
 		add_hack(new WurstplusAutoCrystal());
 		add_hack(new WurstplusHoleFill());
 		add_hack(new WurstplusTrap());
-		add_hack(new WurstplusSocks());
 		add_hack(new WurstplusSelfTrap());
 		add_hack(new WurstplusAutoArmour());
 		add_hack(new WurstplusAuto32k());
@@ -67,7 +66,7 @@ public class WurstplusModuleManager {
 		add_hack(new WurstplusAutoWeb());
 		add_hack(new WurstplusBedAura());
 		add_hack(new WurstplusOffhand());
-		add_hack(new WurstplusAutoGapple());
+		//add_hack(new WurstplusAutoGapple());
 		add_hack(new WurstplusAutoTotem());
 		add_hack(new WurstplusAutoMine());
 		add_hack(new ColisseumWeaponZoom());
@@ -111,8 +110,6 @@ public class WurstplusModuleManager {
 		add_hack(new WurstplusHighlight());
 		add_hack(new WurstplusHoleESP());
 		add_hack(new WurstplusShulkerPreview());
-		add_hack(new WurstplusViewmodleChanger());
-		add_hack(new WurstplusVoidESP());
 		add_hack(new WurstplusAntifog());
 		add_hack(new WurstplusNameTags());
 		add_hack(new WurstplusFuckedDetector());

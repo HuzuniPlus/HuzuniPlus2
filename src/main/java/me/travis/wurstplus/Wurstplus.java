@@ -22,7 +22,7 @@ public class Wurstplus {
 	@Mod.Instance
 	private static Wurstplus MASTER;
 
-	public static final String WURSTPLUS_NAME = "Huzuni+ 2";
+	public static final String WURSTPLUS_NAME = "Huzuni+2";
 	public static final String WURSTPLUS_VERSION = "0.2";
 	public static final String HUZUNI = WURSTPLUS_NAME + " " + WURSTPLUS_VERSION;
 	public static final String WURSTPLUS_SIGN = " ";
@@ -67,7 +67,7 @@ public class Wurstplus {
 
 		send_minecraft_log("initialising guis");
 
-		Display.setTitle("Huzuni+ 2");
+		Display.setTitle(HUZUNI);
 		click_gui = new WurstplusGUI();
 		click_hud = new WurstplusHUD();
 
@@ -102,14 +102,14 @@ public class Wurstplus {
 		}
 
 		send_minecraft_log("client started");
-		send_minecraft_log("we gaming");
+		send_minecraft_log("we plashin");
 
 	}
 
 	public void init_log(String name) {
 		wurstplus_register_log = LogManager.getLogger(name);
 
-		send_minecraft_log("starting huzuniplustwo");
+		send_minecraft_log("starting " + HUZUNI);
 	}
 
 	public static void send_minecraft_log(String log) {

@@ -22,7 +22,7 @@ public class WarriorRPC
         WarriorRPC.presence.details = "Pou owns u discord.gg/pou";
         WarriorRPC.presence.state = "AFK on Main Menu";
         WarriorRPC.presence.largeImageKey = "logo";
-        WarriorRPC.presence.largeImageText = Wurstplus.WURSTPLUS_VERSION;
+        WarriorRPC.presence.largeImageText = Wurstplus.HUZUNI;
         WarriorRPC.rpc.Discord_UpdatePresence(WarriorRPC.presence);
         new Thread(() -> {
             while (!Thread.currentThread().isInterrupted()) {
