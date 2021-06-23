@@ -41,7 +41,7 @@ public class StrenghtDetect extends WurstplusHack {
                 continue;
             }
             if (player.isPotionActive(MobEffects.STRENGTH) && !this.str.contains(player)) {
-                WurstplusMessageUtil.send_client_message(ChatFormatting.RED + "" + ChatFormatting.BOLD + "StrengthDetect" + ChatFormatting.RESET + ChatFormatting.DARK_AQUA + " > " + ChatFormatting.RESET + player.getDisplayNameString() + " Has Strength");
+                WurstplusMessageUtil.send_client_message(ChatFormatting.RED + "" + ChatFormatting.BOLD + "Strength Detect" + ChatFormatting.RESET + ChatFormatting.DARK_AQUA + " > " + ChatFormatting.RESET + player.getDisplayNameString() + " Has Strength");
                 this.str.add(player);
             }
             if (!this.str.contains(player)) {
@@ -50,7 +50,7 @@ public class StrenghtDetect extends WurstplusHack {
             if (player.isPotionActive(MobEffects.STRENGTH)) {
                 continue;
             }
-            WurstplusMessageUtil.send_client_message(ChatFormatting.RED + "" + ChatFormatting.BOLD + "StrengthDetect" + ChatFormatting.RESET + ChatFormatting.DARK_AQUA + " > " + ChatFormatting.RESET + player.getDisplayNameString() + " Has Ran Out Of Strength");
+            WurstplusMessageUtil.send_client_message(ChatFormatting.RED + "" + ChatFormatting.BOLD + "Strength Detect" + ChatFormatting.RESET + ChatFormatting.DARK_AQUA + " > " + ChatFormatting.RESET + player.getDisplayNameString() + " Has Ran Out Of Strength");
             this.str.remove(player);
         }
     }
