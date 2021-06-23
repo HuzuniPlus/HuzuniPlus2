@@ -48,6 +48,7 @@ public class WurstplusModuleManager {
 		add_hack(new BurrowAnnouncer());
 		add_hack(new ColorPrefix());
 		add_hack(new VenecoInsulter());
+		add_hack(new WeaknessAlert());
 
 		// Combat.
 		add_hack(new WurstplusCriticals());
