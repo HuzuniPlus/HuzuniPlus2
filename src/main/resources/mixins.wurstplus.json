@@ -18,6 +18,11 @@
 		"WurstplusMixinItemRenderer",
 		"WurstplusMixinGuiPlayerTabOverlay",
 		"WurstplusMixinRenderLivingBase",
-		"WurstplusMixinAbstractClientPlayer"
+		"WurstplusMixinAbstractClientPlayer",
+		"MixinBlockLiquid",
+		"MixinGuiIngame",
+		"MixinGuiToast",
+		"MixinLayerArmorBase"
+
 	]
 }

@@ -1,5 +1,6 @@
 package me.travis.wurstplus.mixins;
 
+import me.travis.wurstplus.Wurstplus;
 import me.travis.wurstplus.wurstplustwo.event.WurstplusEventBus;
 import me.travis.wurstplus.wurstplustwo.event.events.WurstplusEventSetupFog;
 import net.minecraft.client.renderer.EntityRenderer;
@@ -23,6 +24,12 @@ public class WurstplusMixinEntityRenderer {
 			return;
         }
         
+    }
+    @Inject(method={"hurtCameraEffect"}, at={@At(value="HEAD")}, cancellable=true)
+    public void hurtCameraEffectHook(float ticks, CallbackInfo info) {
+        if (Wurstplus.get_hack_manager().get_module_with_tag("NoRender").is_active() && Wurstplus.get_setting_manager().get_setting_with_tag("NoRender", "HurtCam").get_value(true)) {
+            info.cancel();
+        }
     }
 
 }

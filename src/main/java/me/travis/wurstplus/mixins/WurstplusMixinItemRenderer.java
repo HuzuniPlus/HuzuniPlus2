@@ -53,5 +53,11 @@ public abstract class WurstplusMixinItemRenderer {
         GlStateManager.translate(x + (Wurstplus.get_hack_manager().get_module_with_tag("CustomViewmodel").is_active() ? Wurstplus.get_setting_manager().get_setting_with_tag("CustomViewmodel", "FOVMainX").get_value(1) : 0.0f),
                 y + (Wurstplus.get_hack_manager().get_module_with_tag("CustomViewmodel").is_active() ? Wurstplus.get_setting_manager().get_setting_with_tag("CustomViewmodel", "FOVMainX").get_value(1) : 0.0f), z);
     }
+    @Inject(method={"renderFireInFirstPerson"}, at={@At(value="HEAD")}, cancellable=true)
+    public void renderFireInFirstPersonHook(CallbackInfo info) {
+        if (Wurstplus.get_hack_manager().get_module_with_tag("NoRender").is_active() && Wurstplus.get_setting_manager().get_setting_with_tag("NoRender", "Fire").get_value(true)) {
+            info.cancel();
+        }
+    }
 
 }

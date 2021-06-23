@@ -68,6 +68,7 @@ public class WurstplusModuleManager {
 		add_hack(new WurstplusAutoTotem());
 		add_hack(new WurstplusAutoMine());
 		add_hack(new ColisseumWeaponZoom());
+		add_hack(new Reach());
 
 		// Exploit.
 		add_hack(new WurstplusXCarry());
@@ -85,6 +86,8 @@ public class WurstplusModuleManager {
 		add_hack(new FeetExperience());
 		add_hack(new ManualQuiver());
 		add_hack(new Timer());
+		add_hack(new Reach());
+		add_hack(new LiquidInteract());
 
 		// Movement.
 		add_hack(new WurstplusStrafe());
@@ -117,6 +120,7 @@ public class WurstplusModuleManager {
 		add_hack(new WurstplusCityEsp());
 		add_hack(new OffhandSwing());
 		add_hack(new SwingAnimFix());
+		add_hack(new NoRender());
 
 		// Misc.
 		add_hack(new WurstplusMiddleClickFriends());
