@@ -138,6 +138,7 @@ public class WurstplusModuleManager {
 		add_hack(new CopyCoords());
 		add_hack(new AutoFarm());
 		add_hack(new RichPresence());
+		add_hack(new MapEffectSpoofer());
 
 		// Dev
 		add_hack(new WurstplusFakePlayer());
