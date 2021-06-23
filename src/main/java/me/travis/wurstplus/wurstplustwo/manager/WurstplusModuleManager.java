@@ -33,23 +33,16 @@ public class WurstplusModuleManager {
 		add_hack(new WurstplusClickHUD());
 
 		// Chat.
-		//add_hack(new WurstplusChatSuffix());
 		add_hack(new WurstplusVisualRange());
 		add_hack(new WurstplusTotempop());
-		add_hack(new WurstplusClearChat());
 		add_hack(new WurstplusChatMods());
-		add_hack(new Notifier());
+		add_hack(new PvPInfo());
 		add_hack(new WurstplusAutoEz());
 		add_hack(new WurstplusAntiRacist());
 		add_hack(new WurstplusAnnouncer());
 		add_hack(new EntitySearch());
 		add_hack(new Shrug());
-		//add_hack(new PearlNotifier());
-		//add_hack(new StrenghtDetect());
-		//add_hack(new BurrowAnnouncer());
-		//add_hack(new ColorPrefix());
 		add_hack(new VenecoInsulter());
-		//add_hack(new WeaknessAlert());
 
 		// Combat.
 		add_hack(new WurstplusCriticals());
@@ -66,7 +59,6 @@ public class WurstplusModuleManager {
 		add_hack(new WurstplusAutoWeb());
 		add_hack(new WurstplusBedAura());
 		add_hack(new WurstplusOffhand());
-		//add_hack(new WurstplusAutoGapple());
 		add_hack(new WurstplusAutoTotem());
 		add_hack(new WurstplusAutoMine());
 		add_hack(new ColisseumWeaponZoom());
@@ -102,6 +94,9 @@ public class WurstplusModuleManager {
 		add_hack(new AirJump());
 		add_hack(new AntiWeb());
 		add_hack(new ElytraFly());
+		add_hack(new SalhackElytraFly());
+		add_hack(new Fly());
+		add_hack(new MapReverseStep());
 		add_hack(new InventoryMove());
 		add_hack(new NoSlow());
 
@@ -136,6 +131,7 @@ public class WurstplusModuleManager {
 		add_hack(new RichPresence());
 		add_hack(new MapEffectSpoofer());
 		add_hack(new Scaffold());
+		add_hack(new PineapleFreecam());
 
 		// Dev
 		add_hack(new WurstplusFakePlayer());

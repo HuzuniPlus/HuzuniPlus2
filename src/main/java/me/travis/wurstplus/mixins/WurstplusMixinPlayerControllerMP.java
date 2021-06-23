@@ -49,13 +49,8 @@ public class WurstplusMixinPlayerControllerMP {
 	}
 	@Inject(method = "getBlockReachDistance", at = @At("RETURN"), cancellable = true)
 	private void getReachDistanceHook(final CallbackInfoReturnable<Float> distance) {
-		Wurstplus.get_hack_manager().get_module_with_tag("Reach").is_active(); {
+		if (Wurstplus.get_hack_manager().get_module_with_tag("Reach").is_active()) {
 			distance.setReturnValue((float) Wurstplus.get_setting_manager().get_setting_with_tag("Reach", "ReachReach").get_value(0));
 		}
-
-
 	}
-
-
-
 }

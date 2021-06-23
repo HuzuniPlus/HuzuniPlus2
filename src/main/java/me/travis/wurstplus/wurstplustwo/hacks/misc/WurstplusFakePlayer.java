@@ -1,4 +1,4 @@
-package me.travis.wurstplus.wurstplustwo.hacks.dev;
+package me.travis.wurstplus.wurstplustwo.hacks.misc;
 
 import com.mojang.authlib.GameProfile;
 import me.travis.wurstplus.wurstplustwo.hacks.WurstplusCategory;
@@ -10,7 +10,7 @@ import java.util.UUID;
 public class WurstplusFakePlayer extends WurstplusHack {
     
     public WurstplusFakePlayer() {
-        super(WurstplusCategory.WURSTPLUS_BETA);
+        super(WurstplusCategory.WURSTPLUS_MISC);
 
 		this.name        = "Fake Player";
 		this.tag         = "FakePlayer";

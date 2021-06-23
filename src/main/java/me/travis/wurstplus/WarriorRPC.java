@@ -28,7 +28,7 @@ public class WarriorRPC
             while (!Thread.currentThread().isInterrupted()) {
                 try {
                 	WarriorRPC.rpc.Discord_RunCallbacks();
-                	WarriorRPC.details = "Pou owns u discord.gg/pou";
+                	WarriorRPC.details = "Pou owns u | discord.gg/pou";
                 	WarriorRPC.state = "";
                     if (WarriorRPC.mc.isIntegratedServerRunning()) {
                     	WarriorRPC.state ="On Singleplayer";

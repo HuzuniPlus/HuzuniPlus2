@@ -42,6 +42,7 @@ public final class WurstplusChatMods extends WurstplusHack {
     WurstplusSetting suffix = create("ChatSuffix", "ChatSuffixModule", true);
     WurstplusSetting suffix_mode = create("Suffix", "CSuffix", "Default", combobox("Default", "Random"));
     WurstplusSetting ignore = create("Ignore", "ChatSuffixIgnore", true);
+	WurstplusSetting clear_chatbox = create("Clear Chatbox", "ClearChatbox", false);
 
     int delay_count = 0;
 
@@ -135,15 +136,18 @@ public final class WurstplusChatMods extends WurstplusHack {
 
 	String[] random_client_name = {
 		"huzuniplus",
+		"pouware",
+		"warriorclient",
+		"skided",
 	};
 
 	String[] random_client_finish = {
-		" epic",
-		"god",
 		" sex",
-		" blue",
-		" brown",
-		" gay",
+		" god",
+		" rated",
+		" +",
+		" | discord.gg/JsEwSu5G",
+		" | discord.gg/pou",
 		""
 	};
 
@@ -193,7 +197,7 @@ public final class WurstplusChatMods extends WurstplusHack {
 		if (accept_suffix) {
 			if (suffix_default) {
 				// Just default.
-				message += Wurstplus.WURSTPLUS_SIGN + convert_base("huzuniplus");
+				message += Wurstplus.WURSTPLUS_SIGN + convert_base(" | " + Wurstplus.HUZUNI);
 			}
 
 			if (suffix_random) {

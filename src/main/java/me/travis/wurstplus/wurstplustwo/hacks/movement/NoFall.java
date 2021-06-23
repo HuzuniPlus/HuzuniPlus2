@@ -4,7 +4,7 @@
 // Decompiled by Procyon v0.5.36
 // 
 
-package me.travis.wurstplus.wurstplustwo.hacks.exploit;
+package me.travis.wurstplus.wurstplustwo.hacks.movement;
 
 import me.travis.wurstplus.Wurstplus;
 import me.travis.wurstplus.wurstplustwo.event.events.WurstplusEventPacket;
@@ -35,7 +35,7 @@ public class NoFall extends WurstplusHack
     public Listener<WurstplusEventPacket.SendPacket> sendListener;
     
     public NoFall() {
-        super(WurstplusCategory.WURSTPLUS_EXPLOIT);
+        super(WurstplusCategory.WURSTPLUS_MOVEMENT);
         this.packet = this.create("Packet", "NoFallPacket", true);
         this.bucket = this.create("Bucket", "NoFallBucket", true);
         this.distance = this.create("Distance", "NoFallDistance", 15, 0, 100);

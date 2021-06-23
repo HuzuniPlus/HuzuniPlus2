@@ -47,7 +47,7 @@ public class NoRender extends WurstplusHack {
 
             if (this.mc.world == null) {
                 return;
-            }
+            } 
             if (this.mc.world.isRaining() && weather.get_value(true)) {
                 this.mc.world.setRainStrength(0.0f);
             }

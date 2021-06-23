@@ -27,19 +27,16 @@ import java.util.Collections;
 import java.util.Set;
 import java.util.WeakHashMap;
 
-
-
-
 //Module
 
-public class Notifier extends WurstplusHack {
+public class PvPInfo extends WurstplusHack {
     
     //Strenght notifier
     private final Set<EntityPlayer> str;
 
 
     //Module Info
-    public Notifier() {
+    public PvPInfo() {
         super(WurstplusCategory.WURSTPLUS_CHAT);
 
         this.name        = "PvP Info"; //Commands and Clickgui
