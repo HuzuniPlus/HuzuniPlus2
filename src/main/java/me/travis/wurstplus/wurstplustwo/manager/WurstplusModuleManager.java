@@ -110,6 +110,7 @@ public class WurstplusModuleManager {
 		add_hack(new WurstplusHighlight());
 		add_hack(new WurstplusHoleESP());
 		add_hack(new WurstplusShulkerPreview());
+		add_hack(new WurstplusViewmodleChanger());
 		add_hack(new WurstplusAntifog());
 		add_hack(new WurstplusNameTags());
 		add_hack(new WurstplusFuckedDetector());
