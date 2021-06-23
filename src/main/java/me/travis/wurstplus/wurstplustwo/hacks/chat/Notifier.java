@@ -36,14 +36,14 @@ public class Notifier extends WurstplusHack {
     
     //Strenght notifier
     private final Set<EntityPlayer> str;
-    public static final Minecraft mc;
+
 
     //Module Info
     public Notifier() {
         super(WurstplusCategory.WURSTPLUS_CHAT);
 
-        this.name        = "Notifier"; //Commands and Clickgui
-        this.tag         = "Notifier"; //Config and Arraylist
+        this.name        = "PvP Info"; //Commands and Clickgui
+        this.tag         = "PvPInfo"; //Config and Arraylist
         this.description = "alerts when someone burrows"; //Useless but normally i add this
         this.str = Collections.newSetFromMap(new WeakHashMap<EntityPlayer, Boolean>());
     }
@@ -51,7 +51,6 @@ public class Notifier extends WurstplusHack {
     WurstplusSetting pearl = create("PearlNotifier", "PearlNotif", true);
     WurstplusSetting strenght = create("StrenghtNotifier", "StrenghtNotif", true);
     WurstplusSetting weakness = create("WeaknessNotifier", "WeakNotif", true);
-    WurstplusSetting disable_weakness = create("Disable Weakness", "NoWeakness", true);
 
     List<Entity> knownPlayers = new ArrayList<>();
     List<Entity> burrowedPlayers = new ArrayList<>();
@@ -141,8 +140,7 @@ public class Notifier extends WurstplusHack {
                 hasAnnounced = false;
                 WurstplusMessageUtil.send_client_message(ChatFormatting.GRAY + "" + ChatFormatting.BOLD + "You no longer have weakness");
         }
-        if (disable_weakness.get_value(true) && !hasAnnounced){
-            Notifier.mc.player.removePotionEffect(MobEffects.WEAKNESS);
+
     }
     // streng
     for (final EntityPlayer player : mc.world.playerEntities) {
@@ -161,7 +159,7 @@ public class Notifier extends WurstplusHack {
         }
         WurstplusMessageUtil.send_client_message(ChatFormatting.RED + "" + ChatFormatting.BOLD + "Strength Detect" + ChatFormatting.RESET + ChatFormatting.DARK_AQUA + " > " + ChatFormatting.RESET + player.getDisplayNameString() + " Has Ran Out Of Strength");
         this.str.remove(player);
-    }}}}// end of public void update
+    }}}// end of public void update
     
     private boolean isBurrowed(Entity entity) {
         BlockPos entityPos = new BlockPos((entity.posX), entity.posY, (entity.posZ));
@@ -173,9 +171,6 @@ public class Notifier extends WurstplusHack {
         return false;
     }
 
-// ?????????
-    static {
-        mc = Minecraft.getMinecraft();
-    }
+
 
 }
