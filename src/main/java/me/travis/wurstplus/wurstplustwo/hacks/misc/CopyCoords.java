@@ -22,7 +22,8 @@ public class CopyCoords extends WurstplusHack {
 
         this.name        = "Copy Coords"; //Commands and Clickgui
         this.tag         = "CopyCoords"; //Config and Arraylist
-        this.description = "Copies your coorinates to clipboard"; //Useless but normally i add this
+        //                        added the d
+        this.description = "Copies your coordinates to clipboard"; //Useless but normally i add this
     }
 
     String coords;

@@ -81,7 +81,6 @@ public class WurstplusModuleManager {
 		add_hack(new WurstplusEntityMine());
 		add_hack(new WurstplusBuildHeight());
 		add_hack(new WurstplusCoordExploit());
-		add_hack(new WurstplusNoHandshake());
 		add_hack(new RubberBand());
 		add_hack(new AutoGlitchBlock());
 		add_hack(new FeetExperience());
