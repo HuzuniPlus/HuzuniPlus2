@@ -33,22 +33,23 @@ public class WurstplusModuleManager {
 		add_hack(new WurstplusClickHUD());
 
 		// Chat.
-		add_hack(new WurstplusChatSuffix());
+		//add_hack(new WurstplusChatSuffix());
 		add_hack(new WurstplusVisualRange());
 		add_hack(new WurstplusTotempop());
 		add_hack(new WurstplusClearChat());
 		add_hack(new WurstplusChatMods());
+		add_hack(new Notifier());
 		add_hack(new WurstplusAutoEz());
 		add_hack(new WurstplusAntiRacist());
 		add_hack(new WurstplusAnnouncer());
 		add_hack(new EntitySearch());
 		add_hack(new Shrug());
-		add_hack(new PearlNotifier());
-		add_hack(new StrenghtDetect());
-		add_hack(new BurrowAnnouncer());
-		add_hack(new ColorPrefix());
+		//add_hack(new PearlNotifier());
+		//add_hack(new StrenghtDetect());
+		//add_hack(new BurrowAnnouncer());
+		//add_hack(new ColorPrefix());
 		add_hack(new VenecoInsulter());
-		add_hack(new WeaknessAlert());
+		//add_hack(new WeaknessAlert());
 
 		// Combat.
 		add_hack(new WurstplusCriticals());

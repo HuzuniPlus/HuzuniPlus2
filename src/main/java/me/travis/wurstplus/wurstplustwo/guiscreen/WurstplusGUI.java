@@ -6,7 +6,9 @@ import me.travis.wurstplus.wurstplustwo.hacks.WurstplusCategory;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiScreen;
 import org.lwjgl.input.Keyboard;
+import org.lwjgl.input.Mouse;
 
+import java.io.IOException;
 import java.util.ArrayList;
 
 // Hacks.
@@ -175,6 +177,19 @@ public class WurstplusGUI extends GuiScreen {
 		}
 
 		return frame_requested;
+	}//nekoclient has backdoor lol
+	public void handleMouseInput() throws IOException {
+		if (Mouse.getEventDWheel() > 0) {
+			for (WurstplusFrame frames : this.get_array_frames()) {
+				frames.set_y(frames.get_y() + 10);
+			}
+		}
+		if (Mouse.getEventDWheel() < 0) {
+			for (WurstplusFrame frames : this.get_array_frames()) {
+				frames.set_y(frames.get_y() - 10);
+			}
+		}
+		super.handleMouseInput();
 	}
 
 }
