@@ -33,6 +33,11 @@ public class ElytraFly extends WurstplusHack {
     }
 
     @Override
+    public void disable() {
+        mc.timer.tickLength = 50;
+    }
+
+    @Override
     public void update() {
 
         if(this.mc.player.onGround)
