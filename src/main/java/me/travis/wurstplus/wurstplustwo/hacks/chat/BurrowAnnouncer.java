@@ -48,11 +48,11 @@ public class BurrowAnnouncer extends WurstplusHack {
 
             if (!burrowedPlayers.contains(entity) && isBurrowed(entity)) {
                 burrowedPlayers.add(entity);
-                WurstplusMessageUtil.send_client_message(ChatFormatting.DARK_PURPLE + "Burrow Announcer " + ChatFormatting.DARK_AQUA + " > " + ChatFormatting.RESET + entity.getName() + " burrowed!");
+                WurstplusMessageUtil.send_client_message(ChatFormatting.DARK_PURPLE + ChatFormatting.BOLD + "Burrow Announcer " + ChatFormatting.DARK_AQUA + " > " + ChatFormatting.RESET + entity.getName() + " burrowed!");
             }
             else if (burrowedPlayers.contains(entity) && !isBurrowed(entity)) {
                 burrowedPlayers.remove(entity);
-                WurstplusMessageUtil.send_client_message(ChatFormatting.DARK_PURPLE + "Burrow Announcer " + ChatFormatting.DARK_AQUA + " > " + ChatFormatting.RESET + entity.getName() + " unburrowed!");
+                WurstplusMessageUtil.send_client_message(ChatFormatting.DARK_PURPLE +  ChatFormatting.BOLD + "Burrow Announcer " + ChatFormatting.DARK_AQUA + " > " + ChatFormatting.RESET + entity.getName() + " unburrowed!");
             }
         }
     }
