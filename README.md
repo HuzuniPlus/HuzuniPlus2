@@ -15,6 +15,8 @@ cuz epic
 - A lot of shit chat modules
 
 ## creds
+- yo (Mapeadoh) y WarriorCrystal (el puto q fanea al timer) por """"crear"""" el cliente<br>
+- (jk)<br>
 - Emphack (idk)
 - W+2 and Travis for the client base
 - Xulu and Elementars

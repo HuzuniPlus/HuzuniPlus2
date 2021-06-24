@@ -8,7 +8,7 @@ public enum WurstplusCategory {
 	WURSTPLUS_EXPLOIT ("Exploit", "WurstplusExploit", false),
 	WURSTPLUS_MISC ("Misc", "WurstplusMisc", false),
 	WURSTPLUS_GUI ("Client", "WurstplusGUI", false),
-	WURSTPLUS_BETA ("Beta", "WurstplusBeta", false),
+	WURSTPLUS_BETA ("Beta", "WurstplusBeta", true),
 	WURSTPLUS_HIDDEN ("Hidden", "WurstplusHidden", true);
 
 	String name;
