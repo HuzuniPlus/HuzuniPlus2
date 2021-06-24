@@ -1,32 +1,28 @@
 # Huzuni+ 2
-**im spanish sorry for my english quality**<br>
+**im spanish sorry for my professional**<br>
 
  
 Discord: https://discord.gg/AJTy8ZtGjh god<br>
-theF(u)ckBoys Clan: https://discord.gg/pou
+ThePoukBoys Clan: https://discord.gg/pou
 
-
-Hack Client skid (W+2) very functional without rats because im not retard 
-you can see the src lol
-
+W+2 Skid lol
+not rated like leuxbackdoor
 ## why?
-we are cool 
-
+cuz epic
 ## modules
-A lot, only scaffold is shit but works (sometimes)
+ElytraFly with not bugging autoopen for 7b7t
+Scaffold rlly bad
+A lot of shit chat modules
 
 ## creds
-> yo por mi propio client xd<br>
-> Floppingqq(?) for FloppaHack<br>
-> TrvsF for the base client<br>
-> ionar2 for Salhack src<br>
-> the guy who create CreepySalhack<br>
-> warrior y yo (mapeadoh) pq somos god<br>
-
-## terms idk
-
-you can skid this, only requeriment is give credits (duh)
-
+- Emphack (idk)
+- W+2 and Travis for the client base
+- Xulu and Elementars
+- Salhack and Ionar2
+- Bope for the client base
+- Zori for old cb+ shit but now there isn't anything from zori but duh
+- OnePop for some shit
+- Pinneaple for shit too
+- Floppinqq compacted gui
 ## conclusion
-
 use this client or gae
