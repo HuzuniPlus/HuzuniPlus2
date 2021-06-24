@@ -138,9 +138,7 @@ public class PvPInfo extends WurstplusHack {
             if (!mc.player.isPotionActive(MobEffects.WEAKNESS) && hasAnnounced) {
                 hasAnnounced = false;
                 WurstplusMessageUtil.send_client_message(ChatFormatting.GRAY + "" + ChatFormatting.BOLD + "You no longer have weakness");
-        }
-
-    }
+        }}
     // streng
     for (final EntityPlayer player : mc.world.playerEntities) {
         if (player.equals((Object)mc.player)) {

@@ -11,11 +11,11 @@ import net.minecraft.network.Packet;
 import net.minecraft.network.play.client.CPacketEntityAction;
 
 public class ElytraFly extends WurstplusHack {
-
+// i break it too
         WurstplusSetting speed = create("Speed", "ElytraFlySpeed", 1.81, 0.5, 10.0);
         WurstplusSetting upspeed = create("Up Speed", "ElytraFlyUpSpeed", 1, 0, 10);
         WurstplusSetting downspeed = create("Down Speed", "ElytraFlyDownSpeed", 1, 0, 10);
-        WurstplusSetting timer = create("On Air Timer", "ElytraFlyOnAirTimer", 0, 0, 10);
+        WurstplusSetting timer = create("On Air Timer", "ElytraFlyOnAirTimer", 0.5f, 0.5f, 10f);
 
     public ElytraFly() {
         super(WurstplusCategory.WURSTPLUS_MOVEMENT);

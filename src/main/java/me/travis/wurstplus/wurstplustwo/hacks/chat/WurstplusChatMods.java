@@ -138,17 +138,19 @@ public final class WurstplusChatMods extends WurstplusHack {
 		"huzuniplus",
 		"pouware",
 		"warriorclient",
+		"ratted",
 		"skided",
+		""
 	};
 
 	String[] random_client_finish = {
 		" sex",
 		" god",
-		" rated",
+		" very epic",
 		" +",
 		" | discord.gg/JsEwSu5G",
 		" | discord.gg/pou",
-		""
+		" | proud imrcfag"
 	};
 
 	@EventHandler
