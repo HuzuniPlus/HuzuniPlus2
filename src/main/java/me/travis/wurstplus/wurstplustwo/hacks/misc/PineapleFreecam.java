@@ -41,8 +41,8 @@ public class PineapleFreecam extends WurstplusHack {
     public void update() {
         mc.player.noClip = true;
         mc.player.setVelocity(0, 0, 0);
-        mc.player.jumpMovementFactor = (float) speed.get_value(1.0);
-        double[] dir = WurstplusMathUtil.directionSpeed(speed.get_value(1.0));
+        mc.player.jumpMovementFactor = (float) speed.get_value(1);
+        double[] dir = WurstplusMathUtil.directionSpeed(speed.get_value(1));
         if (mc.player.movementInput.moveStrafe != 0 || mc.player.movementInput.moveForward != 0) {
             mc.player.motionX = dir[0];
             mc.player.motionZ = dir[1];

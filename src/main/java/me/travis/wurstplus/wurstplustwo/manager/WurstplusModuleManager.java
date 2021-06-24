@@ -7,6 +7,7 @@ import me.travis.wurstplus.wurstplustwo.hacks.chat.*;
 import me.travis.wurstplus.wurstplustwo.hacks.combat.*;
 import me.travis.wurstplus.wurstplustwo.hacks.dev.*;
 import me.travis.wurstplus.wurstplustwo.hacks.exploit.*;
+import me.travis.wurstplus.wurstplustwo.hacks.gui.*;
 import me.travis.wurstplus.wurstplustwo.hacks.misc.*;
 import me.travis.wurstplus.wurstplustwo.hacks.movement.*;
 import me.travis.wurstplus.wurstplustwo.hacks.render.*;
@@ -28,9 +29,10 @@ public class WurstplusModuleManager {
 
 	public WurstplusModuleManager() {
 
-		// CLick GUI and HUD.
+		// Gui
 		add_hack(new WurstplusClickGUI());
 		add_hack(new WurstplusClickHUD());
+		add_hack(new WurstplusCapes());
 
 		// Chat.
 		add_hack(new WurstplusVisualRange());
@@ -93,8 +95,6 @@ public class WurstplusModuleManager {
 		add_hack(new AirJump());
 		add_hack(new AntiWeb());
 		add_hack(new ElytraFly());
-		add_hack(new SalhackElytraFly());
-		add_hack(new Fly());
 		add_hack(new MapReverseStep());
 		add_hack(new InventoryMove());
 		add_hack(new NoSlow());
@@ -111,7 +111,6 @@ public class WurstplusModuleManager {
 		add_hack(new WurstplusTracers());
 		add_hack(new WurstplusSkyColour());
 		add_hack(new WurstplusChams());
-		add_hack(new WurstplusCapes());
 		add_hack(new WurstplusAlwaysNight());
 		add_hack(new WurstplusCityEsp());
 		add_hack(new OffhandSwing());

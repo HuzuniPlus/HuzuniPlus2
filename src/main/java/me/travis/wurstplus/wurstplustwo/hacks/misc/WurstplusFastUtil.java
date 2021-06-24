@@ -6,11 +6,6 @@ import me.travis.wurstplus.wurstplustwo.hacks.WurstplusHack;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemEndCrystal;
 import net.minecraft.item.ItemExpBottle;
-import net.minecraft.network.Packet;
-import net.minecraft.network.play.client.CPacketPlayerDigging;
-import net.minecraft.network.play.client.CPacketPlayerTryUseItem;
-import net.minecraft.util.math.BlockPos;
-
 
 public class WurstplusFastUtil extends WurstplusHack {
 
@@ -24,9 +19,8 @@ public class WurstplusFastUtil extends WurstplusHack {
 
 	WurstplusSetting fast_place = create("Place", "WurstplusFastPlace", false);
 	WurstplusSetting fast_break = create("Break", "WurstplusFastBreak", false);
-	WurstplusSetting crystal = create("Crystal", "WurstplusFastCrystal", false);
+	WurstplusSetting crystal = create("Crystal", "WurstplusFastCrystal", true);
 	WurstplusSetting exp = create("EXP", "WurstplusFastExp", true);
-	WurstplusSetting bow = create("Bow", "Bow", true);
 
 	@Override
 	public void update() {
@@ -52,13 +46,6 @@ public class WurstplusFastUtil extends WurstplusHack {
 
 		if (fast_break.get_value(true)) {
 			mc.playerController.blockHitDelay = 0;
-		}
-		if (bow.get_value(true)) {
-			if (mc.player.getHeldItemMainhand().getItem() instanceof net.minecraft.item.ItemBow && mc.player.isHandActive() && mc.player.getItemInUseMaxCount() >= 3) {
-				mc.player.connection.sendPacket((Packet) new CPacketPlayerDigging(CPacketPlayerDigging.Action.RELEASE_USE_ITEM, BlockPos.ORIGIN, mc.player.getHorizontalFacing()));
-				mc.player.connection.sendPacket((Packet) new CPacketPlayerTryUseItem(mc.player.getActiveHand()));
-				mc.player.stopActiveHand();
-			}
 		}
 	}
 }

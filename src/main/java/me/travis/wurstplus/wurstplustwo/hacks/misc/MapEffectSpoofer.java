@@ -22,7 +22,7 @@ public class MapEffectSpoofer extends WurstplusHack {
 
 
     @Override
-    public void enable() {
+    public void update() {
 
         // espid (speed)
         if(speed.get_value(1) > 0){

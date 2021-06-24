@@ -1,7 +1,9 @@
-package me.travis.wurstplus.wurstplustwo.hacks;
+package me.travis.wurstplus.wurstplustwo.hacks.gui;
 
 import me.travis.wurstplus.Wurstplus;
 import me.travis.wurstplus.wurstplustwo.guiscreen.settings.WurstplusSetting;
+import me.travis.wurstplus.wurstplustwo.hacks.WurstplusCategory;
+import me.travis.wurstplus.wurstplustwo.hacks.WurstplusHack;
 
 public class WurstplusClickHUD extends WurstplusHack {
 

@@ -17,7 +17,7 @@ public class MapReverseStep extends WurstplusHack {
     @Override
     public void update() {
 
-    if (!mc.player.onGround || mc.player.isOnLadder() || mc.player.isInWater() || mc.player.isInLava() || mc.player.movementInput.jump || mc.player.noClip) return;
+    if (!mc.player.onGround || mc.player.isOnLadder() || mc.player.isInWater() || mc.player.isInWeb || mc.player.isInLava()  || mc.player.movementInput.jump || mc.player.noClip) return;
     if (mc.player.moveForward == 0 && mc.player.moveStrafing == 0) return;
     
     final double n = get_n_normal();
@@ -40,12 +40,7 @@ public class MapReverseStep extends WurstplusHack {
             }
 
         }
-
         return max_y - mc.player.posY;
-
     }
-
-
-
 }
     

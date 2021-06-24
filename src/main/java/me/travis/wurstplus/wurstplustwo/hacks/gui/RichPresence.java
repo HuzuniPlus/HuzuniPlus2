@@ -1,4 +1,4 @@
-package me.travis.wurstplus.wurstplustwo.hacks.misc;
+package me.travis.wurstplus.wurstplustwo.hacks.gui;
 
 import me.travis.wurstplus.wurstplustwo.hacks.WurstplusCategory;
 import me.travis.wurstplus.wurstplustwo.hacks.WurstplusHack;
@@ -8,7 +8,7 @@ public class RichPresence extends WurstplusHack {
 	
 	public RichPresence() {
 		
-        super(WurstplusCategory.WURSTPLUS_MISC);
+        super(WurstplusCategory.WURSTPLUS_GUI);
         this.name = "Rich Presence";
         this.tag = "RichPresence";
         this.description = "shows discord rpc";
