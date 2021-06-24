@@ -42,7 +42,8 @@ public class WarriorRPC
                     	WarriorRPC.state = "On Main Menu";
                     }
                     if (!WarriorRPC.details.equals(WarriorRPC.presence.details) || !WarriorRPC.state.equals(WarriorRPC.presence.state)) {
-                    	WarriorRPC.presence.startTimestamp = System.currentTimeMillis() / 1000L;
+                    	//WarriorRPC.presence.startTimestamp = System.currentTimeMillis() / 1000L;
+                        // es mejor q te diga el tiempo total
                     }
                     WarriorRPC.presence.details = WarriorRPC.details;
                     WarriorRPC.presence.state = WarriorRPC.state;
