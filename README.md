@@ -10,9 +10,9 @@ not rated like leuxbackdoor
 ## why?
 cuz epic
 ## modules
-ElytraFly with not bugging autoopen for 7b7t
-Scaffold rlly bad
-A lot of shit chat modules
+- ElytraFly with not bugging autoopen for 7b7t
+- Scaffold rlly bad
+- A lot of shit chat modules
 
 ## creds
 - Emphack (idk)
