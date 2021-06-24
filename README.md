@@ -1,6 +1,6 @@
 # Huzuni+ 2
 **im spanish sorry for my english quality**<br>
-pasted from AnasheClient+<br>
+
  
 Discord: https://discord.gg/AJTy8ZtGjh god<br>
 theF(u)ckBoys Clan: https://discord.gg/pou
@@ -16,7 +16,7 @@ we are cool
 A lot, only scaffold is shit but works (sometimes)
 
 ## creds
-> WarriorCrystal for Cheatbreaker+ (yep,its an skid, deal with it)<br>
+> yo por mi propio client xd<br>
 > Floppingqq(?) for FloppaHack<br>
 > TrvsF for the base client<br>
 > ionar2 for Salhack src<br>
