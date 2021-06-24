@@ -45,10 +45,7 @@ public class WurstplusChatSuffix extends WurstplusHack {
 		" sex",
 		" god",
 		" very epic",
-		" +",
-		" | discord.gg/JsEwSu5G",
-		" | discord.gg/pou",
-		" | proud imrcfag"
+		" +"
 	};
 
 	@EventHandler
