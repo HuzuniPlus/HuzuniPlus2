@@ -18,7 +18,7 @@ public class WurstplusMixinGuiNewChat {
     @Redirect(method = "drawChat", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/gui/GuiNewChat;drawRect(IIIII)V", ordinal = 0))
     private void overrideChatBackgroundColour(int left, int top, int right, int bottom, int color) {
 
-        if (Wurstplus.get_setting_manager().get_setting_with_tag("ChatModifications", "ClearChatbox").get_value(true)) {
+        if (!Wurstplus.get_hack_manager().get_module_with_tag("ClearChatbox").is_active()) {
 
             Gui.drawRect(left, top, right, bottom, color);
 

@@ -25,15 +25,15 @@ public class NoRender extends WurstplusHack {
     }
 
     //Module Settings
-    WurstplusSetting falling = create("Falling Blocks", "Falling", false);
+    WurstplusSetting falling = create("Falling Blocks", "Falling", true);
     WurstplusSetting weather = create("Wheather", "Weather", true);
     WurstplusSetting potionef = create("Potion Icons", "PotionIcons", false);
     WurstplusSetting pumpkin = create("Pumpkin Overlay", "Pumpkin", false);
     WurstplusSetting portal = create("Portal Overlay", "PortalOverlay", false);
     WurstplusSetting fireworks = create("FireWorks", "FireWorks", false);
     WurstplusSetting advancements = create("Advancements", "Advancements", false);
-    WurstplusSetting fire = create("Fire", "Fire", false);
-    WurstplusSetting hurtcam = create("Hurt Cam", "HurtCam", false);
+    WurstplusSetting fire = create("Fire", "Fire", true);
+    WurstplusSetting hurtcam = create("Hurt Cam", "HurtCam", true);
     WurstplusSetting armor = create("Armor", "Armor", false);
 
 
