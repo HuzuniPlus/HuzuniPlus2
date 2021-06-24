@@ -183,7 +183,7 @@ public class WurstplusAnnouncer extends WurstplusHack {
     private void send_message(String s) {
         if (suffix.get_value(true)) {
             String i = " \u2763 ";
-            s += i + Wurstplus.smoth("sponsored by wurstplus two");
+            s += i + Wurstplus.smoth("| Huzuni+2 owns me, you, and all");
         }
         if (smol.get_value(true)) {
             s = Wurstplus.smoth(s.toLowerCase());

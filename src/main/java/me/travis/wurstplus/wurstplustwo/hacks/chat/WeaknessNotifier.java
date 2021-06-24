@@ -10,10 +10,10 @@ import net.minecraft.init.MobEffects;
 
 //Module
 
-public class a extends WurstplusHack {
+public class WeaknessNotifier extends WurstplusHack {
 
     //Module Info
-    public a() {
+    public WeaknessNotifier() {
         super(WurstplusCategory.WURSTPLUS_CHAT);
 
         this.name        = "Weakness Detect"; //Commands and Clickgui
