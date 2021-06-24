@@ -26,8 +26,8 @@ public class WurstplusConfigManager {
 
     // FOLDERS
     private final String MAIN_FOLDER = "HUZUNIPLUS/";
-    private final String CONFIGS_FOLDER = MAIN_FOLDER + "configs/";
-    private String ACTIVE_CONFIG_FOLDER = CONFIGS_FOLDER + "default/";
+    private final String CONFIGS_FOLDER = "HUZUNIPLUS/configs/";
+    private String ACTIVE_CONFIG_FOLDER = "HUZUNIPLUS/configs/default/";
 
     // STATIC FILES
     private final String CLIENT_FILE = "client.json";
@@ -48,13 +48,13 @@ public class WurstplusConfigManager {
     private final String FRIENDS_DIR = MAIN_FOLDER + FRIENDS_FILE;
     private final String HUD_DIR = MAIN_FOLDER + HUD_FILE;
 
-    private String CURRENT_CONFIG_DIR = MAIN_FOLDER + CONFIGS_FOLDER + ACTIVE_CONFIG_FOLDER;
-    private String BINDS_DIR = CURRENT_CONFIG_DIR + BINDS_FILE;
+    private String CURRENT_CONFIG_DIR = "HUZUNIPLUS/configs/default/";
+    private String BINDS_DIR = "HUZUNIPLUS/configs/default/" + BINDS_FILE;
 
     // FOLDER PATHS
     private final Path MAIN_FOLDER_PATH = Paths.get(MAIN_FOLDER);
     private final Path CONFIGS_FOLDER_PATH = Paths.get(CONFIGS_FOLDER);
-    private Path ACTIVE_CONFIG_FOLDER_PATH = Paths.get(ACTIVE_CONFIG_FOLDER);
+    private Path ACTIVE_CONFIG_FOLDER_PATH = Paths.get("HUZUNIPLUS/configs/default/");
 
     // FILE PATHS
     private final Path CLIENT_PATH = Paths.get(CLIENT_DIR);
@@ -74,9 +74,9 @@ public class WurstplusConfigManager {
         }
 
         this.ACTIVE_CONFIG_FOLDER = CONFIGS_FOLDER + folder;
-        this.ACTIVE_CONFIG_FOLDER_PATH = Paths.get(ACTIVE_CONFIG_FOLDER);
+        this.ACTIVE_CONFIG_FOLDER_PATH = Paths.get("HUZUNIPLUS/configs/default/");
 
-        this.CURRENT_CONFIG_DIR = MAIN_FOLDER + CONFIGS_FOLDER + ACTIVE_CONFIG_FOLDER;
+        this.CURRENT_CONFIG_DIR = CONFIGS_FOLDER + "default/";
         this.CURRENT_CONFIG_PATH = Paths.get(CURRENT_CONFIG_DIR);
 
         this.BINDS_DIR = CURRENT_CONFIG_DIR + BINDS_FILE;

@@ -70,19 +70,21 @@ public class PvPInfo extends WurstplusHack {
     @Override
     public void update() {
         // burrow
-        for (Entity entity : mc.world.loadedEntityList.stream().filter(e -> e instanceof EntityPlayer).collect(Collectors.toList())) {
-            if (!(entity instanceof EntityPlayer)){
-                continue;
-            }
+        if(burrow.get_value(true)){
+            for (Entity entity : mc.world.loadedEntityList.stream().filter(e -> e instanceof EntityPlayer).collect(Collectors.toList())) {
+                if (!(entity instanceof EntityPlayer)){
+                    continue;
+                }
 
-            if (!burrowedPlayers.contains(entity) && isBurrowed(entity)) {
-                burrowedPlayers.add(entity);
-                WurstplusMessageUtil.send_client_message(ChatFormatting.DARK_PURPLE + "" + ChatFormatting.BOLD + "Burrow Announcer " + ChatFormatting.DARK_AQUA + " > " + ChatFormatting.RESET + entity.getName() + " burrowed!");
-            }
-            else if (burrowedPlayers.contains(entity) && !isBurrowed(entity)) {
-                burrowedPlayers.remove(entity);
-                WurstplusMessageUtil.send_client_message(ChatFormatting.DARK_PURPLE + "" + ChatFormatting.BOLD + "Burrow Announcer " + ChatFormatting.DARK_AQUA + " > " + ChatFormatting.RESET + entity.getName() + " unburrowed!");
-            }}
+                if (!burrowedPlayers.contains(entity) && isBurrowed(entity)) {
+                    burrowedPlayers.add(entity);
+                    WurstplusMessageUtil.send_client_message(ChatFormatting.DARK_PURPLE + "" + ChatFormatting.BOLD + "Burrow Announcer " + ChatFormatting.DARK_AQUA + " > " + ChatFormatting.RESET + entity.getName() + " burrowed!");
+                }
+                else if (burrowedPlayers.contains(entity) && !isBurrowed(entity)) {
+                    burrowedPlayers.remove(entity);
+                    WurstplusMessageUtil.send_client_message(ChatFormatting.DARK_PURPLE + "" + ChatFormatting.BOLD + "Burrow Announcer " + ChatFormatting.DARK_AQUA + " > " + ChatFormatting.RESET + entity.getName() + " unburrowed!");
+            }}} 
+
         if(pearl.get_value(true)){
             if (mc.world != null && mc.player != null) {
             this.enderPearl = null;
