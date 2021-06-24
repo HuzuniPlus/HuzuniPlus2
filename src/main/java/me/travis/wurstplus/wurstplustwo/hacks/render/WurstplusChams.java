@@ -31,7 +31,7 @@ public class WurstplusChams extends WurstplusHack {
         tag = "Chams";
         description = "Oooh shiny";
     }
-
+            // ok, i start working on it
     WurstplusSetting mode = create("Mode", "ChamsMode", "Color", combobox("Texture", "Color"));
     WurstplusSetting range = create("Range", "ChamsRange", 100, 0, 250);
     WurstplusSetting player = create("Player", "ChamsPlayer", true);
@@ -39,10 +39,10 @@ public class WurstplusChams extends WurstplusHack {
     WurstplusSetting crystal = create("Crystals", "ChamsCrystals", true);
     WurstplusSetting self = create("Self", "ChamsSelf", true);
     WurstplusSetting rainbow = create("Rainbow", "ChamsRainbow", false);
-    WurstplusSetting r = create("r", "ChamsR", 70, 0, 255);
-    WurstplusSetting g = create("g", "ChamsG", 150, 0, 255);
-    WurstplusSetting b = create("b", "ChamsB", 200, 0, 255);
-    WurstplusSetting a = create("a", "ChamsA", 100, 0, 255);
+    WurstplusSetting r = create("R", "ChamsR", 70, 0, 255);
+    WurstplusSetting g = create("G", "ChamsG", 150, 0, 255);
+    WurstplusSetting b = create("B", "ChamsB", 200, 0, 255);
+    WurstplusSetting a = create("A", "ChamsA", 100, 0, 255);
 
     @Override
     public void update() {

@@ -35,7 +35,7 @@ public class WurstplusModuleManager {
 		add_hack(new WurstplusCapes());
 
 		// Chat.
-		add_hack(new a());
+		add_hack(new WeaknessNotifier());
 		add_hack(new ColorPrefix());
 		add_hack(new PearlNotifier());
 		add_hack(new StrenghtDetect());
