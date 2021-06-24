@@ -3,7 +3,7 @@
 
  
 Discord: https://discord.gg/AJTy8ZtGjh god<br>
-ThePoukBoys Clan: https://discord.gg/pou
+ThePouBoys Clan: https://discord.gg/pou
 
 W+2 Skid lol
 not rated like leuxbackdoor
