@@ -43,7 +43,7 @@ public class WarriorRPC
                     }
                     if (!WarriorRPC.details.equals(WarriorRPC.presence.details) || !WarriorRPC.state.equals(WarriorRPC.presence.state)) {
                     	//WarriorRPC.presence.startTimestamp = System.currentTimeMillis() / 1000L;
-                        // es mejor q te diga el tiempo total
+                        // es mejor q te diga el tiempo total XD
                     }
                     WarriorRPC.presence.details = WarriorRPC.details;
                     WarriorRPC.presence.state = WarriorRPC.state;
