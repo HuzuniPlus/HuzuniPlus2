@@ -23,7 +23,7 @@ public class BurrowAnnouncer extends WurstplusHack {
     public BurrowAnnouncer() {
         super(WurstplusCategory.WURSTPLUS_CHAT);
 
-        this.name        = "BurrowAnnouncer"; //Commands and Clickgui
+        this.name        = "Burrow Announcer"; //Commands and Clickgui
         this.tag         = "BurrowAnnouncer"; //Config and Arraylist
         this.description = "alerts when someone burrows"; //Useless but normally i add this
     }
