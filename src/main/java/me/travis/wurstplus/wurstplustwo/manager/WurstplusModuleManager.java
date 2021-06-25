@@ -123,6 +123,7 @@ public class WurstplusModuleManager {
 		add_hack(new OffhandSwing());
 		add_hack(new SwingAnimFix());
 		add_hack(new NoRender());
+		add_hack(new SmallHand());
 
 		// Misc.
 		add_hack(new WurstplusMiddleClickFriends());
