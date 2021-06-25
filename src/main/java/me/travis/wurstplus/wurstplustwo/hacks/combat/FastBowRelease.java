@@ -17,11 +17,11 @@ public class FastBowRelease extends WurstplusHack{
 
         super(WurstplusCategory.WURSTPLUS_COMBAT);
 
-        this.name = "FastBowRelease";
-        this.tag = "FastBowRelease";
+        this.name = "Fast Bow";
+        this.tag = "FastBow";
         this.description = "metralleta bow";
-    } //                                  notperry1234567890 W+3
-        WurstplusSetting ticks = create("FastBowRelease", "release", 1.0d, 1.0d, 25.0d);
+    } //                                  xoffu W+3
+        WurstplusSetting ticks = create("Ticks", "release", 1.0d, 1.0d, 25.0d);
 	
 	@EventHandler
     public Listener<WurstplusEventPacket.SendPacket> listener;
