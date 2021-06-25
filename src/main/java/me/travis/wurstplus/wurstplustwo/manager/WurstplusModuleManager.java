@@ -108,7 +108,6 @@ public class WurstplusModuleManager {
 		add_hack(new MapReverseStep());
 		add_hack(new InventoryMove());
 		add_hack(new NoSlow());
-		add_hack(new SafeWalk());
 
 
 		// Render.

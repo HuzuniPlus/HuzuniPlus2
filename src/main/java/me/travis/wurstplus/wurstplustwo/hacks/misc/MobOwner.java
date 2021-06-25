@@ -33,7 +33,7 @@ public class MobOwner extends WurstplusHack {
 
     //Module Info
     public MobOwner() {
-        super(WurstplusCategory.WURSTPLUS_MOVEMENT);
+        super(WurstplusCategory.WURSTPLUS_MISC);
 
         this.name        = "Mob Owner"; //Commands and Clickgui
         this.tag         = "MobOwner"; //Config and Arraylist
