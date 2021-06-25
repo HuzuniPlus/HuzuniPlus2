@@ -50,6 +50,7 @@ public class WurstplusModuleManager {
 		add_hack(new EntitySearch());
 		add_hack(new Shrug());
 		add_hack(new VenecoInsulter());
+		add_hack(new AutoExcuse());
 
 		// Combat.
 		add_hack(new WurstplusCriticals());
@@ -107,6 +108,7 @@ public class WurstplusModuleManager {
 		add_hack(new MapReverseStep());
 		add_hack(new InventoryMove());
 		add_hack(new NoSlow());
+		add_hack(new SafeWalk());
 
 
 		// Render.
