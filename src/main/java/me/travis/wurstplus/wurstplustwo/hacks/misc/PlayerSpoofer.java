@@ -43,7 +43,7 @@ public class PlayerSpoofer extends WurstplusHack {
     public void enable() {
         BufferedImage image;
         try {
-            this.tmp = new File("Wurstplus3"+ File.separator + "tmp");
+            this.tmp = new File("HuzuniPlusTwo"+ File.separator + "tmp");
             if (!this.tmp.exists()) {
                 this.tmp.mkdirs();
             }
@@ -65,7 +65,7 @@ public class PlayerSpoofer extends WurstplusHack {
             String uuid = valsMap.get("id");
             URL url2 = new URL("https://mc-heads.net/skin/" + uuid);
             image = ImageIO.read(url2);
-            ImageIO.write(image, "png", new File("Wurstplus3/tmp/skin.png"));
+            ImageIO.write(image, "png", new File("HuzuniPlusTwo/tmp/skin.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
