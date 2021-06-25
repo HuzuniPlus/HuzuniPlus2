@@ -23,7 +23,7 @@ public class Wurstplus {
 	private static Wurstplus MASTER;
 
 	public static final String WURSTPLUS_NAME = "Huzuni+2";
-	public static final String WURSTPLUS_VERSION = "0.3";
+	public static final String WURSTPLUS_VERSION = "0.3.1";
 	public static final String HUZUNI = WURSTPLUS_NAME + " " + WURSTPLUS_VERSION;
 	public static final String WURSTPLUS_SIGN = " ";
 
