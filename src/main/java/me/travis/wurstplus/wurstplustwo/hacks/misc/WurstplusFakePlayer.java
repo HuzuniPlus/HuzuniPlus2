@@ -22,7 +22,7 @@ public class WurstplusFakePlayer extends WurstplusHack {
     @Override
     protected void enable() {
         
-        fake_player = new EntityOtherPlayerMP(mc.world, new GameProfile(UUID.fromString("a07208c2-01e5-4eac-a3cf-a5f5ef2a4700"), "travis"));
+        fake_player = new EntityOtherPlayerMP(mc.world, new GameProfile(UUID.fromString("a07208c2-01e5-4eac-a3cf-a5f5ef2a4700"), "Pou"));
         fake_player.copyLocationAndAnglesFrom(mc.player);
         fake_player.rotationYawHead = mc.player.rotationYawHead;
         mc.world.addEntityToWorld(-100, fake_player);
