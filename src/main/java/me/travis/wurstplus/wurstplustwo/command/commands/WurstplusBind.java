@@ -11,7 +11,7 @@ public class WurstplusBind extends WurstplusCommand {
 		super("bind", "bind module to key");
 	}
 
-	public boolean get_message(String[] message) {
+	public void get_message(String[] message) {
 		String module = "null;";
 		String key = "null";
 

@@ -11,7 +11,7 @@ public class WurstplusHelp extends WurstplusCommand {
 		super("help", "helps people");
 	}
 
-	public boolean get_message(String[] message) {
+	public void get_message(String[] message) {
 		String type = "null";
 
 		if (message.length == 1) {

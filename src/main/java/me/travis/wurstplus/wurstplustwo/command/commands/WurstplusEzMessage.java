@@ -12,7 +12,7 @@ public class WurstplusEzMessage extends WurstplusCommand {
         super("ezmessage", "Set ez mode");
     }
 
-    public boolean get_message(String[] message) {
+    public void get_message(String[] message) {
 
         if (message.length == 1) {
             WurstplusMessageUtil.send_client_error_message("message needed");

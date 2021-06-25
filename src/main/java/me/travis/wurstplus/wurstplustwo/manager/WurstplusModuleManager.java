@@ -148,6 +148,7 @@ public class WurstplusModuleManager {
 		add_hack(new ClientSideSurvival());
 		add_hack(new MCP());
 		add_hack(new MobOwner());
+		add_hack(new PlayerSpoofer());
 
 		// Dev
 		add_hack(new WurstplusFakePlayer());
