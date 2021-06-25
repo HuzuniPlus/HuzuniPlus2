@@ -13,7 +13,7 @@ public class WurstplusCommand {
 		this.description = description;
 	}
 
-	public void get_message(String[] message) {
+	public boolean get_message(String[] message) {
 		return false;
 	}
 

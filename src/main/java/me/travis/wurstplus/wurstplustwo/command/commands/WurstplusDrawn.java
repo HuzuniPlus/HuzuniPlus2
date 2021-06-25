@@ -14,7 +14,7 @@ public class WurstplusDrawn extends WurstplusCommand {
         super("drawn", "Hide elements of the array list");
     }
 
-    public void get_message(String[] message) {
+    public boolean get_message(String[] message) {
 
         if (message.length == 1) {
             WurstplusMessageUtil.send_client_error_message("module name needed");

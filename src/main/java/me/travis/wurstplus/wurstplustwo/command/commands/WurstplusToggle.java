@@ -11,7 +11,7 @@ public class WurstplusToggle extends WurstplusCommand {
 		super("t", "turn on and off stuffs");
 	}
 
-	public void get_message(String[] message) {
+	public boolean get_message(String[] message) {
 		String module = "null";
 
 		if (message.length > 1) {

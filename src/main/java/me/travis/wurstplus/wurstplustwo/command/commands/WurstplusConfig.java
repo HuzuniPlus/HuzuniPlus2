@@ -10,7 +10,7 @@ public class WurstplusConfig extends WurstplusCommand {
         super("config", "changes which config is loaded");
     }
 
-    public void get_message(String[] message) {
+    public boolean get_message(String[] message) {
 
         if (message.length == 1) {
             WurstplusMessageUtil.send_client_error_message("config needed");

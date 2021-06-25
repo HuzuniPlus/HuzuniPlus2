@@ -16,7 +16,7 @@ public class WurstplusEnemy extends WurstplusCommand {
     public static ChatFormatting bold = ChatFormatting.BOLD;
     public static ChatFormatting reset = ChatFormatting.RESET;
 
-    public void get_message(String[] message) {
+    public boolean get_message(String[] message) {
 
         if (message.length == 1) {
             WurstplusMessageUtil.send_client_message("Add - add enemy");

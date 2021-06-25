@@ -11,7 +11,7 @@ public class WurstplusSettings extends WurstplusCommand {
 		super("settings", "To save/load settings.");
 	}
 
-	public void get_message(String[] message) {
+	public boolean get_message(String[] message) {
 		String msg = "null";
 
 		if (message.length > 1) {

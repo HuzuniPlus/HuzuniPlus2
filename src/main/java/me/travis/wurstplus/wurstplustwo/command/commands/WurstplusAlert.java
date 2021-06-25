@@ -12,7 +12,7 @@ public class WurstplusAlert extends WurstplusCommand {
 		super("alert", "if the module should spam chat or not");
 	}
 
-	public void get_message(String[] message) {
+	public boolean get_message(String[] message) {
 		String module = "null";
 		String state  = "null";
 

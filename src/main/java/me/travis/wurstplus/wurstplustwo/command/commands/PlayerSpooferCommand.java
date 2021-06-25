@@ -12,15 +12,15 @@ public class PlayerSpooferCommand extends WurstplusCommand {
     }
 
     @Override
-    public void get_message(String[] message) {
+    public boolean get_message(String[] message) {
         if (message.length == 0){
             WurstplusMessageUtil.send_client_message("Enter a name dumbass!");
-            return;
+            return true;
         }
         if (message.length == 1){
             if (message[0].isEmpty()){
                 WurstplusMessageUtil.send_client_message("Enter a name dumbass!");
-                return;
+                return true;
             }
             String name = message[0];
             PlayerSpoofer.INSTANCE.name = name;

@@ -11,7 +11,7 @@ public class WurstplusPrefix extends WurstplusCommand {
 		super("prefix", "Change prefix.");
 	}
 
-	public void get_message(String[] message) {
+	public boolean get_message(String[] message) {
 		String prefix = "null";
 
 		if (message.length > 1) {
