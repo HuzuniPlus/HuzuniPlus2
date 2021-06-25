@@ -142,6 +142,7 @@ public class WurstplusModuleManager {
 		add_hack(new Scaffold());
 		add_hack(new PineapleFreecam());
 		add_hack(new AutoRespawn());
+		add_hack(new MobOwner());
 
 		// Dev
 		add_hack(new WurstplusFakePlayer());
