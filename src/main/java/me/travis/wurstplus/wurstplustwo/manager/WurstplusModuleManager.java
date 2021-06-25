@@ -124,6 +124,7 @@ public class WurstplusModuleManager {
 		add_hack(new SwingAnimFix());
 		add_hack(new NoRender());
 		add_hack(new SmallHand());
+		add_hack(new FullBright());
 
 		// Misc.
 		add_hack(new WurstplusMiddleClickFriends());
