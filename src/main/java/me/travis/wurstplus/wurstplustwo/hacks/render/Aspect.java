@@ -14,7 +14,7 @@ public class Aspect extends WurstplusHack {
 
     //Module Info
     public Aspect() {
-        super(WurstplusCategory.WURSTPLUS_MOVEMENT);
+        super(WurstplusCategory.WURSTPLUS_RENDER);
 
         this.name        = "Aspect"; //Commands and Clickgui
         this.tag         = "Aspect"; //Config and Arraylist
