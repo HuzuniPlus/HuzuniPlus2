@@ -105,6 +105,7 @@ public class WurstplusModuleManager {
 		add_hack(new AirJump());
 		add_hack(new AntiWeb());
 		add_hack(new ElytraFly());
+		add_hack(new SalhackElytraFly());
 		add_hack(new PacketFly());
 		add_hack(new MapReverseStep());
 		add_hack(new InventoryMove());

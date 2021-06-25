@@ -1,6 +1,5 @@
 package me.travis.wurstplus.wurstplustwo.hacks.movement;
 
-import me.travis.wurstplus.wurstplustwo.guiscreen.settings.WurstplusSetting;
 import me.travis.wurstplus.wurstplustwo.hacks.WurstplusCategory;
 import me.travis.wurstplus.wurstplustwo.hacks.WurstplusHack;
 import net.minecraft.network.play.client.CPacketPlayer;
@@ -13,21 +12,19 @@ public class WurstplusStep extends WurstplusHack {
 
 		this.name        = "Step";
 		this.tag         = "Step";
-		this.description = "Move up / down block big";
+		this.description = "Move up block big";
     }
-
-    WurstplusSetting mode = create("Mode", "StepMode", "Normal", combobox("Normal", "Reverse"));
 
     @Override
     public void update() {
 
-        if (!mc.player.collidedHorizontally && mode.in("Normal")) return;
+        if (!mc.player.collidedHorizontally) return;
         if (!mc.player.onGround || mc.player.isOnLadder() || mc.player.isInWater() || mc.player.isInLava() || mc.player.movementInput.jump || mc.player.noClip) return;
         if (mc.player.moveForward == 0 && mc.player.moveStrafing == 0) return;
 
         final double n = get_n_normal();
 
-        if (mode.in("Normal")) {
+        
 
             if (n < 0 || n > 2) return;
 
@@ -59,14 +56,6 @@ public class WurstplusStep extends WurstplusHack {
 
         }
 
-        if (mode.in("Reverse")) {
-
-            mc.player.motionY = -1;
-
-        }
-
-    }
-
     public double get_n_normal() {
 
         mc.player.stepHeight = 0.5f;
@@ -88,7 +77,4 @@ public class WurstplusStep extends WurstplusHack {
         return max_y - mc.player.posY;
 
     }
-
-    
-
-}
+}    

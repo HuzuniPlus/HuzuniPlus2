@@ -37,8 +37,8 @@ public class NoFall extends WurstplusHack
     public NoFall() {
         super(WurstplusCategory.WURSTPLUS_MOVEMENT);
         this.packet = this.create("Packet", "NoFallPacket", true);
-        this.bucket = this.create("Bucket", "NoFallBucket", true);
-        this.distance = this.create("Distance", "NoFallDistance", 15, 0, 100);
+        this.bucket = this.create("Bucket", "NoFallBucket", false);
+        this.distance = this.create("BucketDistance", "NoFallDistance", 15, 0, 100);
         this.last = 0L;
         this.sendListener = new Listener<WurstplusEventPacket.SendPacket>(event -> {
             if (Wurstplus.get_module_manager().get_module_with_tag("ElytraFly").is_active()) {
