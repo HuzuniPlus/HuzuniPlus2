@@ -90,6 +90,7 @@ public class WurstplusModuleManager {
 		add_hack(new AutoSalDupe());
 		add_hack(new Blink());
 		add_hack(new NoFall());
+		add_hack(new EntityDesync());
 
 		// Movement.
 		add_hack(new WurstplusStrafe());
