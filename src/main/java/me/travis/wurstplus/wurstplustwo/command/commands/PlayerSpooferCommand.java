@@ -30,7 +30,10 @@ public class PlayerSpooferCommand extends WurstplusCommand {
             // goods
             WurstplusMessageUtil.send_client_message("Set skin to " + ChatFormatting.BOLD + name);
         }
+        return true;
+
     }
 }
+
 
 
