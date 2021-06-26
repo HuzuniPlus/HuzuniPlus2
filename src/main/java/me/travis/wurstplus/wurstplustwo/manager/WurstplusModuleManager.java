@@ -94,6 +94,7 @@ public class WurstplusModuleManager {
 		add_hack(new EntityDesync());
 		add_hack(new AntiLevitate());
 		add_hack(new Burrow());
+		add_hack(new AutoFrameDupe());
 
 		// Movement.
 		add_hack(new WurstplusStrafe());
