@@ -17,7 +17,7 @@ public class FullBright extends WurstplusHack {
 
     //Module Info
     public FullBright() {
-        super(WurstplusCategory.WURSTPLUS_MOVEMENT);
+        super(WurstplusCategory.WURSTPLUS_RENDER);
 
         this.name        = "Full Bright"; //Commands and Clickgui
         this.tag         = "FullBright"; //Config and Arraylist
