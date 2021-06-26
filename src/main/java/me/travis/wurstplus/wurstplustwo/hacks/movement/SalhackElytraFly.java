@@ -23,8 +23,8 @@ public final class SalhackElytraFly extends WurstplusHack{
         
         super(WurstplusCategory.WURSTPLUS_MOVEMENT);
 
-        this.name = "SalElytraFly";
-        this.tag = "SalhackElytraFly";
+        this.name = "Sal E Fly";
+        this.tag = "SalEFly";
         this.description = "best elytrafly ever?";
     }
 
