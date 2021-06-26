@@ -4,6 +4,7 @@
 	"package"            : "me.travis.wurstplus.mixins",
 	"refmap"             : "mixins.wurstplus.refmap.json",
 	"mixins"             : [
+		"GSMixinItemRenderer",
 		"WurstplusMixinPlayerControllerMP",
 		"WurstplusMixinNetworkManager",
 		"WurstplusMixinMinecraft",
@@ -15,7 +16,6 @@
 		"WurstplusMixinWorld",
 		"WurstplusMixinRenderPlayer",
 		"WurstplusMixinPlayer",
-		"WurstplusMixinItemRenderer",
 		"WurstplusMixinGuiPlayerTabOverlay",
 		"WurstplusMixinRenderLivingBase",
 		"WurstplusMixinAbstractClientPlayer",
