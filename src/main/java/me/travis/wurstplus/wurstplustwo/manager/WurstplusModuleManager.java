@@ -117,7 +117,7 @@ public class WurstplusModuleManager {
 		add_hack(new WurstplusHighlight());
 		add_hack(new WurstplusHoleESP());
 		add_hack(new WurstplusShulkerPreview());
-		add_hack(new WurstplusViewmodleChanger());
+		//add_hack(new WurstplusViewmodleChanger());
 		add_hack(new WurstplusAntifog());
 		add_hack(new WurstplusNameTags());
 		add_hack(new WurstplusFuckedDetector());
@@ -131,6 +131,7 @@ public class WurstplusModuleManager {
 		add_hack(new NoRender());
 		add_hack(new SmallHand());
 		add_hack(new FullBright());
+		add_hack(new GSViewModelTest());
 
 		// Misc.
 		add_hack(new WurstplusMiddleClickFriends());

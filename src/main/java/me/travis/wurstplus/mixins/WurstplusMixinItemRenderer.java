@@ -1,4 +1,4 @@
-package me.travis.wurstplus.mixins;
+/*package me.travis.wurstplus.mixins;
 
 import me.travis.wurstplus.Wurstplus;
 import net.minecraft.client.entity.AbstractClientPlayer;
@@ -60,4 +60,4 @@ public abstract class WurstplusMixinItemRenderer {
         }
     }
 
-}
+}*/

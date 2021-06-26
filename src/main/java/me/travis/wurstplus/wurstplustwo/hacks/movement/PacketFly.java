@@ -42,6 +42,7 @@ public class PacketFly extends WurstplusHack {
         this.name = "Packet Fly";
         this.tag = "PacketFly";
         this.description = "PacketKick";
+        
         CPacketPlayer[] fly_bounds = new CPacketPlayer[1];
         double[] fly_speed_y = new double[1];
         double[] fly_speed_y_2 = new double[1];
