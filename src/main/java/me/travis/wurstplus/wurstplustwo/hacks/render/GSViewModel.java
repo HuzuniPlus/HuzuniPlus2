@@ -16,8 +16,8 @@ import net.minecraftforge.client.event.EntityViewRenderEvent;
  * @author NekoPvP (Item FOV)
  */
 
-public class GSViewModelTest extends WurstplusHack {
-    public GSViewModelTest() {
+public class GSViewModel extends WurstplusHack {
+    public GSViewModel() {
         super(WurstplusCategory.WURSTPLUS_RENDER);
 
         this.name        = "GSViewModel"; 
