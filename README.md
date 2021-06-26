@@ -17,7 +17,7 @@ cuz epic
 ## creds
 - tu vieja por el viejahack b99
 - Emphack
-- W+3
+- W+3 and Travis, Magmeg
 - W+2 and Travis for the client base
 - Xulu and Elementars
 - Salhack and Ionar2
