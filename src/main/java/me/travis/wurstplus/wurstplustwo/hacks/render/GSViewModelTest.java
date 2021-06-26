@@ -18,7 +18,7 @@ import net.minecraftforge.client.event.EntityViewRenderEvent;
 
 public class GSViewModelTest extends WurstplusHack {
     public GSViewModelTest() {
-        super(WurstplusCategory.WURSTPLUS_MOVEMENT);
+        super(WurstplusCategory.WURSTPLUS_RENDER);
 
         this.name        = "GSViewModel"; 
         this.tag         = "GSViewModel"; 
@@ -28,11 +28,11 @@ public class GSViewModelTest extends WurstplusHack {
     WurstplusSetting cancel_eat = create("NoEatAnim", "CancelEatAnim", false);
     WurstplusSetting x_left = create("LeftX", "LeftX", 0.0, -2.0, 2.0);
     WurstplusSetting y_left = create("LeftY", "LeftY", 0.2, -2.0, 2.0);
-    WurstplusSetting z_left = create("LeftZ", "LeftZ", -1-2, -2.0, 2.0);
+    WurstplusSetting z_left = create("LeftZ", "LeftZ", -1.2, -2.0, 2.0);
 
     WurstplusSetting x_right = create("RightX", "RightX", 0.0, -2.0, 2.0);
-    WurstplusSetting y_right = create("RightX", "RightX", 0.0, -2.0, 2.0);
-    WurstplusSetting z_right = create("RightX", "RightX", 0.0, -2.0, 2.0);
+    WurstplusSetting y_right = create("RightY", "RightY", 0.0, -2.0, 2.0);
+    WurstplusSetting z_right = create("RightZ", "RightZ", 0.0, -2.0, 2.0);
 
     WurstplusSetting fov = create("ItemFov", "ItemFov", 130, 70, 200);
     /* original code lololololololol
