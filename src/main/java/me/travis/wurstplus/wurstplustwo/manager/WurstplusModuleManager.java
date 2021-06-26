@@ -131,7 +131,7 @@ public class WurstplusModuleManager {
 		add_hack(new NoRender());
 		add_hack(new SmallHand());
 		add_hack(new FullBright());
-		add_hack(new GSViewModelTest());
+		add_hack(new GSViewModel());
 
 		// Misc.
 		add_hack(new WurstplusMiddleClickFriends());

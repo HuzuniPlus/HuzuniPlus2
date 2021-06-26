@@ -16,23 +16,23 @@ import net.minecraftforge.client.event.EntityViewRenderEvent;
  * @author NekoPvP (Item FOV)
  */
 
-public class GSViewModelTest extends WurstplusHack {
-    public GSViewModelTest() {
+public class GSViewModel extends WurstplusHack {
+    public GSViewModel() {
         super(WurstplusCategory.WURSTPLUS_RENDER);
 
         this.name        = "GSViewModel"; 
         this.tag         = "GSViewModel"; 
         this.description = "works?"; 
-    }
+    }// works?
     WurstplusSetting mode = create("Mode", "Mode", "Value", combobox("Value", "Fov", "Both"/*ambos en ingles*/));
     WurstplusSetting cancel_eat = create("NoEatAnim", "CancelEatAnim", false);
-    WurstplusSetting x_left = create("LeftX", "LeftX", 0.0, -2.0, 2.0);
-    WurstplusSetting y_left = create("LeftY", "LeftY", 0.2, -2.0, 2.0);
-    WurstplusSetting z_left = create("LeftZ", "LeftZ", -1.2, -2.0, 2.0);
+    WurstplusSetting x_left = create("LeftX", "LeftX", 0.0f, -2.0f, 2.0f);
+    WurstplusSetting y_left = create("LeftY", "LeftY", 0.2f, -2.0f, 2.0f);
+    WurstplusSetting z_left = create("LeftZ", "LeftZ", -1.2f, -2.0f, 2.0f);
 
-    WurstplusSetting x_right = create("RightX", "RightX", 0.0, -2.0, 2.0);
-    WurstplusSetting y_right = create("RightY", "RightY", 0.0, -2.0, 2.0);
-    WurstplusSetting z_right = create("RightZ", "RightZ", 0.0, -2.0, 2.0);
+    WurstplusSetting x_right = create("RightX", "RightX", 0.0d, -2.0d, 2.0d);
+    WurstplusSetting y_right = create("RightY", "RightY", 0.0d, -2.0d, 2.0D);
+    WurstplusSetting z_right = create("RightZ", "RightZ", 0.0d, -2.0d, 2.0d);
 
     WurstplusSetting fov = create("ItemFov", "ItemFov", 130, 70, 200);
     /* original code lololololololol

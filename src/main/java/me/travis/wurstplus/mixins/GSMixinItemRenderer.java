@@ -24,13 +24,13 @@ public class GSMixinItemRenderer {
         TransformSideFirstPersonEvent event = new TransformSideFirstPersonEvent(hand);
         WurstplusEventBus.EVENT_BUS.post(event);
     }
-// noeat setting
+// noeat setting, im retard it isnt fov setting
     @Inject(method = "transformEatFirstPerson", at = @At("HEAD"), cancellable = true)
     public void transformEatFirstPerson(float p_187454_1_, EnumHandSide hand, ItemStack stack, CallbackInfo callbackInfo) {
         TransformSideFirstPersonEvent event = new TransformSideFirstPersonEvent(hand);
         WurstplusEventBus.EVENT_BUS.post(event);
 
-        if (Wurstplus.get_hack_manager().get_module_with_tag("GSViewModel").is_active() && Wurstplus.get_setting_manager().get_setting_with_tag("GSViewModel", "ItemFov").get_value(true)) {
+        if (Wurstplus.get_hack_manager().get_module_with_tag("GSViewModel").is_active() && Wurstplus.get_setting_manager().get_setting_with_tag("GSViewModel", "CancelEatAnim").get_value(true)) {
             callbackInfo.cancel();
         }
     }
