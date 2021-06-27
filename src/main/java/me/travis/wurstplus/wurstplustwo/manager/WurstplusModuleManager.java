@@ -124,7 +124,7 @@ public class WurstplusModuleManager {
 		add_hack(new WurstplusTracers());
 		add_hack(new WurstplusSkyColour());
 		add_hack(new WurstplusChams());
-		add_hack(new WurstplusAlwaysNight());
+		add_hack(new TimeChanger());
 		add_hack(new WurstplusCityEsp());
 		add_hack(new OffhandSwing());
 		add_hack(new SwingAnimFix());

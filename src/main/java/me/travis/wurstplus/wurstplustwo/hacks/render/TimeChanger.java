@@ -7,9 +7,9 @@ import me.travis.wurstplus.wurstplustwo.hacks.WurstplusHack;
 import me.zero.alpine.fork.listener.EventHandler;
 import me.zero.alpine.fork.listener.Listener;
 
-public class WurstplusAlwaysNight extends WurstplusHack {
+public class TimeChanger extends WurstplusHack {
 
-    public WurstplusAlwaysNight() {
+    public TimeChanger() {
         super(WurstplusCategory.WURSTPLUS_RENDER);
 
         this.name = "Time Changer";
