@@ -12,6 +12,7 @@ public class AntiWeb
         this.name = "Anti Web";
         this.tag = "AntiWeb";
         this.description = "no te bajan la velocidad las cobwebs";
+        // spoiler, si te bajan si te chocas con mas de 1 consecutiva
     }
 
 

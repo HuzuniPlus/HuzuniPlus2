@@ -16,17 +16,17 @@ public class WurstplusClickGUI extends WurstplusHack {
 
 		set_bind(Wurstplus.WURSTPLUS_KEY_GUI);
 	}
-
+// poosy config
 	WurstplusSetting label_frame = create("info", "ClickGUIInfoFrame", "Frames");
 
-	WurstplusSetting name_frame_r = create("Name R", "ClickGUINameFrameR", 110, 0, 255);
-	WurstplusSetting name_frame_g = create("Name G", "ClickGUINameFrameG", 0, 0, 255);
-	WurstplusSetting name_frame_b = create("Name B", "ClickGUINameFrameB", 0, 0, 255);
+	WurstplusSetting name_frame_r = create("Name R", "ClickGUINameFrameR", 101, 0, 255);
+	WurstplusSetting name_frame_g = create("Name G", "ClickGUINameFrameG", 27, 0, 255);
+	WurstplusSetting name_frame_b = create("Name B", "ClickGUINameFrameB", 255, 0, 255);
 
 	WurstplusSetting background_frame_r = create("Background R", "ClickGUIBackgroundFrameR", 0, 0, 255);
 	WurstplusSetting background_frame_g = create("Background G", "ClickGUIBackgroundFrameG", 0, 0, 255);
 	WurstplusSetting background_frame_b = create("Background B", "ClickGUIBackgroundFrameB", 0, 0, 255);
-	WurstplusSetting background_frame_a = create("Background A", "ClickGUIBackgroundFrameA", 50, 0, 255);
+	WurstplusSetting background_frame_a = create("Background A", "ClickGUIBackgroundFrameA", 255, 0, 255);
 
 	WurstplusSetting border_frame_r = create("Border R", "ClickGUIBorderFrameR", 0, 0, 255);
 	WurstplusSetting border_frame_g = create("Border G", "ClickGUIBorderFrameG", 0, 0, 255);
@@ -38,8 +38,8 @@ public class WurstplusClickGUI extends WurstplusHack {
 	WurstplusSetting name_widget_g = create("Name G", "ClickGUINameWidgetG", 255, 0, 255);
 	WurstplusSetting name_widget_b = create("Name B", "ClickGUINameWidgetB", 255, 0, 255);
 
-	WurstplusSetting background_widget_r = create("Background R", "ClickGUIBackgroundWidgetR", 255, 0, 255);
-	WurstplusSetting background_widget_g = create("Background G", "ClickGUIBackgroundWidgetG", 255, 0, 255);
+	WurstplusSetting background_widget_r = create("Background R", "ClickGUIBackgroundWidgetR", 101, 0, 255);
+	WurstplusSetting background_widget_g = create("Background G", "ClickGUIBackgroundWidgetG", 27, 0, 255);
 	WurstplusSetting background_widget_b = create("Background B", "ClickGUIBackgroundWidgetB", 255, 0, 255);
 	WurstplusSetting background_widget_a = create("Background A", "ClickGUIBackgroundWidgetA", 100, 0, 255);
 

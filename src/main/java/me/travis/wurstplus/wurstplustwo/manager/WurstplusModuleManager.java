@@ -5,6 +5,7 @@ import me.travis.wurstplus.wurstplustwo.event.events.WurstplusEventRender;
 import me.travis.wurstplus.wurstplustwo.hacks.*;
 import me.travis.wurstplus.wurstplustwo.hacks.chat.*;
 import me.travis.wurstplus.wurstplustwo.hacks.combat.*;
+import me.travis.wurstplus.wurstplustwo.hacks.dev.*;
 import me.travis.wurstplus.wurstplustwo.hacks.exploit.*;
 import me.travis.wurstplus.wurstplustwo.hacks.gui.*;
 import me.travis.wurstplus.wurstplustwo.hacks.misc.*;
@@ -154,6 +155,7 @@ public class WurstplusModuleManager {
 
 		// Dev
 		add_hack(new WurstplusFakePlayer());
+		add_hack(new GodMode());
 
 		array_hacks.sort(Comparator.comparing(WurstplusHack::get_name));
 	}
