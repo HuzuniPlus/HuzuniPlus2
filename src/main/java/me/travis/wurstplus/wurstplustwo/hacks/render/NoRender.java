@@ -35,6 +35,7 @@ public class NoRender extends WurstplusHack {
     WurstplusSetting fire = create("Fire", "Fire", true);
     WurstplusSetting hurtcam = create("Hurt Cam", "HurtCam", true);
     WurstplusSetting armor = create("Armor", "Armor", false);
+    WurstplusSetting noboss = create("NoBossOverlay", "NoBossOverlay", false);
 
 
 

@@ -33,7 +33,7 @@ public class WurstplusKillAura extends WurstplusHack {
 		this.description = "To able hit enemies in a range.";
 	}
 
-	WurstplusSetting mode = create("Mode", "KillAuraMode", "A32k", combobox("A32k", "Normal"));
+	WurstplusSetting mode = create("Mode", "KillAuraMode", "Normal", combobox("A32k", "Normal"));
 	WurstplusSetting player    = create("Player",   "KillAuraPlayer",  true);
 	WurstplusSetting hostile   = create("Hostile",  "KillAuraHostile", false);
 	WurstplusSetting sword     = create("Sword",    "KillAuraSword",   true);
