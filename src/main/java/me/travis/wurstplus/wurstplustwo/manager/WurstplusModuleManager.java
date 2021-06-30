@@ -135,6 +135,7 @@ public class WurstplusModuleManager {
 		add_hack(new GSViewModel());
 
 		// Misc.
+		add_hack(new AutoMsg());
 		add_hack(new WurstplusMiddleClickFriends());
 		add_hack(new WurstplusStopEXP());
 		add_hack(new WurstplusAutoReplenish());
@@ -150,7 +151,7 @@ public class WurstplusModuleManager {
 		add_hack(new AutoRespawn());
 		add_hack(new ClientSideCreative());
 		add_hack(new ClientSideSurvival());
-		add_hack(new MCP());
+		add_hack(new MiddleClickUtil());
 		add_hack(new MobOwner());
 
 		// Dev
