@@ -18,7 +18,7 @@ cuz epic
 - tu vieja por el viejahack b99
 - Emphack
 - W+3 and Travis, Madmeg
-- W+2 and Travis for the client base
+- W+2 Travis for the client base and rat.
 - Xulu and Elementars
 - Salhack and Ionar2
 - Bope for the client base
