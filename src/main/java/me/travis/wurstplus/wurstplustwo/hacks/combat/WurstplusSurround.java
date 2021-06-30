@@ -29,6 +29,7 @@ public class WurstplusSurround extends WurstplusHack {
 	WurstplusSetting rotate = create("Rotate", "SurroundSmoth", true);
 	WurstplusSetting hybrid = create("Hybrid", "SurroundHybrid", true);
 	WurstplusSetting triggerable = create("Toggle", "SurroundToggle", true);
+	WurstplusSetting toggle_off_ground = create("ToggleOffGround", "TogleOffGround", false);
 	WurstplusSetting center = create("Center", "SurroundCenter", false);
 	WurstplusSetting block_head = create("Block Face", "SurroundBlockFace", false);
 	WurstplusSetting tick_for_place = create("Blocks per tick","SurroundTickToPlace", 2, 1, 8);
@@ -89,10 +90,15 @@ public class WurstplusSurround extends WurstplusHack {
 			}
 		}
 	}
-
+//toggle on ground, finally
 	@Override
 	public void update() {
-
+		if (!mc.player.onGround && !mc.player.prevOnGround) {
+			if (toggle_off_ground.get_value(true)) {
+				toggle();
+				return;
+			}
+		}
 		if (mc.player != null) {
 
 			if (center_block != Vec3d.ZERO && center.get_value(true)) {
