@@ -17,7 +17,7 @@ public class TimeChanger extends WurstplusHack {
         this.description = "see even less";
     }
 
-    WurstplusSetting time = create("Time", "TCTime", 18000, 0, 18000);
+    WurstplusSetting time = create("Time", "TCTime", 18000, 0, 24000);
 
     @EventHandler
     private Listener<WurstplusEventRender> on_render = new Listener<>(event -> {

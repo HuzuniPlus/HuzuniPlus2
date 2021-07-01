@@ -13,8 +13,8 @@ import me.travis.wurstplus.wurstplustwo.event.events.WurstplusEventPlayerTravel;
 import me.travis.wurstplus.wurstplustwo.guiscreen.settings.WurstplusSetting;
 import me.travis.wurstplus.wurstplustwo.hacks.WurstplusCategory;
 import me.travis.wurstplus.wurstplustwo.hacks.WurstplusHack;
+import me.travis.wurstplus.wurstplustwo.util.SalTimer;
 import me.travis.wurstplus.wurstplustwo.util.WurstplusMathUtil;
-import me.travis.wurstplus.wurstplustwo.util.WurstplusTimer;
 import me.zero.alpine.fork.listener.EventHandler;
 import me.zero.alpine.fork.listener.Listener;
 
@@ -39,9 +39,9 @@ public final class SalhackElytraFly extends WurstplusHack{
     WurstplusSetting auto_fly = create("Instant Fly", "InstantFly", true);
     WurstplusSetting auto_elytra = create("Equip Elytra", "EquipElytra", true);
     
-    private WurstplusTimer AccelerationTimer = new WurstplusTimer();
-    private WurstplusTimer AccelerationResetTimer = new WurstplusTimer();
-    private WurstplusTimer InstantFlyTimer = new WurstplusTimer();
+    private SalTimer AccelerationTimer = new SalTimer();
+    private SalTimer AccelerationResetTimer = new SalTimer();
+    private SalTimer InstantFlyTimer = new SalTimer();
     private WurstplusHack PacketFly = null;
     private int ElytraSlot = -1;
     

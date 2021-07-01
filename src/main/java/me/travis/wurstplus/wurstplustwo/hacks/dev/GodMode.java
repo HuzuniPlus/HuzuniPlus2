@@ -17,7 +17,7 @@ import me.travis.wurstplus.wurstplustwo.guiscreen.settings.WurstplusSetting;
 // in collab with ! Beat#7777
 public class GodMode extends WurstplusHack {
     public GodMode(){
-        super(WurstplusCategory.WURSTPLUS_BETA);
+        super(WurstplusCategory.WURSTPLUS_EXPLOIT);
         this.name = "GodMode";// from phobos LOL A PHOBOS MODULE
         this.tag = "GodMode";
         this.description = "modo dios activado Bv";

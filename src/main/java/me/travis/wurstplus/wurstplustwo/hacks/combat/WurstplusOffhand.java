@@ -23,10 +23,13 @@ public class WurstplusOffhand extends WurstplusHack {
     }
 
     WurstplusSetting switch_mode = create("Offhand", "OffhandOffhand", "Totem", combobox("Totem", "Crystal", "Gapple"));
-    WurstplusSetting totem_switch = create("Totem HP", "OffhandTotemHP", 16, 0, 36);
+    WurstplusSetting totem_switch = create("Totem HP", "OffhandTotemHP", 20, 0, 36);
 
     WurstplusSetting gapple_in_hole = create("Gapple In Hole", "OffhandGapple", false);
-    WurstplusSetting gapple_hole_hp = create("Gapple Hole HP", "OffhandGappleHP", 8, 0, 36);
+    WurstplusSetting gapple_hole_hp = create("Gapple Hole HP", "OffhandGappleHP", 20, 0, 36);
+
+    WurstplusSetting gapple_in_sword = create("Gapple In Sword", "OffhandSword", false);
+    WurstplusSetting gapple_sword_hp = create("Gapple Sword HP", "OffhandSwordHP", 20, 0, 36);
 
     WurstplusSetting delay = create("Delay", "OffhandDelay", false);
 
@@ -51,6 +54,10 @@ public class WurstplusOffhand extends WurstplusHack {
                     return;
                 }
                 if (gapple_in_hole.get_value(true) && hp > gapple_hole_hp.get_value(1) && is_in_hole()) {
+                    swap_items(get_item_slot(Items.GOLDEN_APPLE), delay.get_value(true) ? 1 : 0);
+                    return;
+                }
+                if (gapple_in_sword.get_value(true) && hp > gapple_sword_hp.get_value(1) && mc.player.getHeldItemMainhand().getItem() == Items.DIAMOND_SWORD) {
                     swap_items(get_item_slot(Items.GOLDEN_APPLE), delay.get_value(true) ? 1 : 0);
                     return;
                 }
