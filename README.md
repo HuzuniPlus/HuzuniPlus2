@@ -1,9 +1,10 @@
 # Huzuni+ 2
-**im spanish sorry for my professional english**<br>
+**im spanish sorry for my incredible professional english**<br>
 
  
 Discord: https://discord.gg/AJTy8ZtGjh god<br>
-ThePouBoys Clan: https://discord.gg/pou
+ThePouBoys Clan: https://discord.gg/pou <br>
+NullName Clan because ies: https://discord.gg/nullname
 
 W+2 Skid lol
 not rated like leuxbackdoor
@@ -15,6 +16,7 @@ cuz epic
 - A lot of shit chat modules
 
 ## creds
+- WarriorCrystal for all
 - tu vieja por el viejahack b99
 - Emphack
 - W+3 and Travis, Madmeg
