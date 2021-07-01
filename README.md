@@ -1,5 +1,5 @@
 # Huzuni+ 2
-**im spanish sorry for my not professional english**<br>
+**im spanish sorry for my incredible professional english**<br>
 
  
 Discord: https://discord.gg/AJTy8ZtGjh god<br>
