@@ -1,5 +1,5 @@
 # Huzuni+ 2
-**im spanish sorry for my incredible professional english**<br>
+**I'm spanish sorry for my incredible professional english.**<br>
 
  
 Discord: https://discord.gg/AJTy8ZtGjh god<br>
@@ -7,26 +7,25 @@ ThePouBoys Clan: https://discord.gg/pou <br>
 NullName Clan because ies: https://discord.gg/nullname
 
 W+2 Skid lol
-not rated like leuxbackdoor
+not ratted like leuxbackdoor.
 ## why?
-cuz epic
+Cuz epic.
 ## modules
-- ElytraFly with not bugging autoopen for 7b7t
-- Scaffold rlly bad
-- A lot of shit chat modules
+- ElytraFly doesn't bug out when u try to open it on 7b7t.
+- Scaffold it's rlly bad.
+- A lot of new shit in the chat category.
 
 ## creds
-- WarriorCrystal old owner/dev
-- tu vieja por el viejahack b99
-- Emphack
-- W+3 and Travis, Madmeg
+- WarriorCrystal old owner/dev.
+- Emphack.
+- W+3 and Travis, Madmeg.
 - W+2 Travis for the client base and rat.
-- Xulu and Elementars
-- Salhack and Ionar2
-- Bope for the client base
-- Zori for old cb+ shit but now there isn't anything from zori but duh
-- OnePop for some shit
-- Pinneaple for shit too
-- Floppinqq compacted gui
+- Xulu and Elementars.
+- Salhack and Ionar2.
+- Bope for the client base.
+- Zori for old cb+ shit but now there isn't anything from zori but duh.
+- OnePop for some shit.
+- Pinneaple for shit too.
+- Floppinqq for the compacted gui.
 ## conclusion
-use this client or gae
+Use this client or gae.
