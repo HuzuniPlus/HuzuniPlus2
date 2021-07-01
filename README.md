@@ -3,7 +3,7 @@
 
  
 Discord: https://discord.gg/AJTy8ZtGjh god<br>
-ThePouBoys Clan: https://discord.gg/pou 
+ThePouBoys Clan: https://discord.gg/pou <br>
 NullName Clan because ies: discord.gg/nullname
 
 W+2 Skid lol
