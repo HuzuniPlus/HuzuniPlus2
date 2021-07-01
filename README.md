@@ -1,7 +1,7 @@
 # Huzuni+ 2
 **im spanish sorry for my professional english**<br>
 
- test
+ tes
 Discord: https://discord.gg/AJTy8ZtGjh god<br>
 ThePouBoys Clan: https://discord.gg/pou 
 NullName Clan because ies: discord.gg/nullname
