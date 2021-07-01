@@ -146,7 +146,7 @@ public class WurstplusModuleManager {
 		add_hack(new RichPresence());
 		add_hack(new MapEffectSpoofer());
 		add_hack(new Scaffold());
-		add_hack(new PineapleFreecam());
+		add_hack(new Freecam());
 		add_hack(new AutoRespawn());
 		add_hack(new ClientSideCreative());
 		add_hack(new ClientSideSurvival());
