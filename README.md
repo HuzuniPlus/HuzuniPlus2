@@ -16,7 +16,7 @@ cuz epic
 - A lot of shit chat modules
 
 ## creds
-- WarriorCrystal for all
+- WarriorCrystal old owner/dev
 - tu vieja por el viejahack b99
 - Emphack
 - W+3 and Travis, Madmeg
