@@ -27,7 +27,8 @@ public class NoSlow extends WurstplusHack
     
     @EventHandler
     private Listener<InputUpdateEvent> eventListener = new Listener<>(event -> {
-        if (mc.player.isHandActive() && mc.player.isInWeb /*testing something*/ && !mc.player.isRiding()) {
+        if (mc.player.isHandActive() && !mc.player.isRiding()) {
+            // ups
             event.getMovementInput().moveStrafe *= 5;
             event.getMovementInput().moveForward *= 5;
         }

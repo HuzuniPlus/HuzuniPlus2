@@ -25,7 +25,7 @@ public final class SalhackElytraFly extends WurstplusHack{
 
         this.name = "Sal E Fly";
         this.tag = "SalEFly";
-        this.description = "best elytrafly ever?";
+        this.description = "use whit ElytraFly or not work";
     }
 
     WurstplusSetting mode = create("Mode", "Mode", "Control", combobox("Normal", "Tarzan", "Superior", "Packet", "Control"));
@@ -37,20 +37,17 @@ public final class SalhackElytraFly extends WurstplusHack{
     WurstplusSetting aceleration_timer = create("Aceleration", "AcelerationTimer", 1000, 0, 10000);
     WurstplusSetting water_cancel = create("Cancel in Water", "CancelInWater", true);
     WurstplusSetting auto_fly = create("Instant Fly", "InstantFly", true);
+    WurstplusSetting timer = create("InstantFlyTimer", "InstantFTimer", 0.5f, 0.5f, 10f);
     WurstplusSetting auto_elytra = create("Equip Elytra", "EquipElytra", true);
     
     private SalTimer AccelerationTimer = new SalTimer();
     private SalTimer AccelerationResetTimer = new SalTimer();
-    private SalTimer InstantFlyTimer = new SalTimer();
-    private WurstplusHack PacketFly = null;
     private int ElytraSlot = -1;
     
     @Override
     public void enable()
     {
         super.enable();
-        
-        PacketFly = Wurstplus.get_hack_manager().get_module_with_tag("PacketFly");
         
         ElytraSlot = -1;
         
@@ -112,8 +109,6 @@ public final class SalhackElytraFly extends WurstplusHack{
     @EventHandler
     private Listener<WurstplusEventPlayerTravel> OnTravel = new Listener<>(p_Event ->
     {
-        if (mc.player == null || PacketFly.is_active()) ///< Ignore if Flight is on: ex flat flying
-            return;
 
         /// Player must be wearing an elytra.
         if (mc.player.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() != Items.ELYTRA)
@@ -121,14 +116,18 @@ public final class SalhackElytraFly extends WurstplusHack{
 
         if (!mc.player.isElytraFlying())
         {
-            if (!mc.player.onGround && auto_fly.get_value(true))
+            if (auto_fly.get_value(true))
             {
-                if (!InstantFlyTimer.passed(1000))
-                    return;
-
-                InstantFlyTimer.reset();
-
-                mc.player.connection.sendPacket(new CPacketEntityAction(mc.player, Action.START_FALL_FLYING));
+                if(this.mc.player.onGround)
+                mc.timer.tickLength = 50;
+            else
+            if(mc.player.isElytraFlying()){
+                mc.timer.tickLength = 50;
+    
+            }
+            else{mc.timer.tickLength = 170.0f / timer.get_value(0);}
+    
+                    
             }
 
             return;
