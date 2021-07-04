@@ -48,6 +48,7 @@ public class VenecoInsulter extends WurstplusHack {
         chants.add("Leroy Marica");
         chants.add("Reken Marica");
         chants.add("Venuz Marica");
+        chants.add("Mapeadoh gay");
     }
 
     String[] random_correction = {
