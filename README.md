@@ -28,4 +28,7 @@ Cuz epic.
 - Pinneaple for shit too.
 - Floppinqq for the compacted gui.
 ## conclusion
-Use this client or gae.
+why're u using this?.
+
+
+quiza haga un commit en unos días metiendole un newca, piston y un par de boludeces mas
