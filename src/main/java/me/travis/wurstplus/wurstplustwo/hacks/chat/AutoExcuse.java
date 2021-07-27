@@ -41,7 +41,7 @@ public class AutoExcuse extends WurstplusHack
                 AutoExcuse.mc.player.sendChatMessage("im desync :(");
             }
             if (randomNum == 6) {
-                AutoExcuse.mc.player.sendChatMessage("youre a cheater :(");
+                AutoExcuse.mc.player.sendChatMessage("me mori porq soy amigo de mapeado");
             }
             this.diedTime = 0;
         }
