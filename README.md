@@ -3,7 +3,6 @@
 
  
 Discord: https://discord.gg/AJTy8ZtGjh god<br>
-ThePouBoys Clan: https://discord.gg/pou <br>
 NullName Clan because ies: https://discord.gg/nullname
 
 W+2 Skid lol
@@ -28,7 +27,4 @@ Cuz epic.
 - Pinneaple for shit too.
 - Floppinqq for the compacted gui.
 ## conclusion
-why're u using this?.
-
-
-quiza haga un commit en unos días metiendole un newca, piston y un par de boludeces mas
+cliente un poquititititititititito muerto
